@@ -2,6 +2,8 @@
 
 A companion vault for the book "Curate, Connect, Cultivate: Build a Personal Knowledge System That Grows With You" (coming 2026). This Obsidian vault demonstrates a methodology for building a sustainable personal knowledge management system that works with how you actually think—and how AI tools process information.
 
+Want to be notified when the book and full companion vault launches? Join our email list here: https://www.curateconnectcultivate.ai/
+
 ## Why This System?
 
 ### The Problem with Traditional Knowledge Management
