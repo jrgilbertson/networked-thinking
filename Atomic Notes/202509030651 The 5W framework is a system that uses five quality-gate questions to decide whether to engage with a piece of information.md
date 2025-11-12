@@ -12,11 +12,11 @@ title: 5W Framework
 
 The 5W framework is a system that uses five quality-gate questions to decide whether to engage with a piece of information. It assesses:
 
-1. An items purpose (what for?)
+1. An item's purpose (what for?)
 2. Timeliness (why now?)
 3. Opportunity cost (what else?)
 4. Source credibility (who from?)
-5. Final destination with the knowledge systems (where to?)
+5. Final destination within the knowledge system (where to?)
 
 Think of the 5W framework as a bouncer at an exclusive club for your mind. Before letting any new information in, the bouncer asks it a series of tough questions. It checks for a valid reason to be there, if it's the right time, who it's associated with, and where it will fit in, preventing mental clutter.
 
@@ -25,4 +25,4 @@ For example, before saving an article about a new programming language, you woul
 Sources:
 
 1. Gemini 2.5 last accessed [[2025-09-03]]
-2. Forthcoming Curate, Connect, Cultivate book last accessed [[2025-09-03]]
+2. Forthcoming Networked Thinking book last accessed [[2025-09-03]]

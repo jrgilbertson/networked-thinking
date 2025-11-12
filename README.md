@@ -1,6 +1,6 @@
-# Curate, Connect, Cultivate Knowledge System
+# Networked Thinking
 
-A companion vault for the book "Curate, Connect, Cultivate: Build a Personal Knowledge System That Grows With You" (coming 2026). This Obsidian vault demonstrates a methodology for building a sustainable personal knowledge management system that works with how you actually think—and how AI tools process information.
+A companion vault for the book "Networked Thinking" (coming 2026). This Obsidian vault demonstrates a methodology for building a sustainable personal knowledge management system that works with how you actually think—and how AI tools process information.
 
 Want to be notified when the book and full companion vault launches? Join our email list here: https://www.curateconnectcultivate.ai/
 
@@ -10,7 +10,7 @@ Want to be notified when the book and full companion vault launches? Join our em
 
 Most knowledge management systems fail because they optimize for collecting rather than understanding. Tags proliferate into chaos. Folders force artificial hierarchies on networked information. You save everything but understand nothing. Even sophisticated systems like Zettelkasten need adaptation for our digital, AI-enhanced world.
 
-### The Curate, Connect, Cultivate Solution
+### The Networked Thinking Solution
 
 This methodology addresses these fundamental issues through three core practices:
 
@@ -24,7 +24,7 @@ This methodology addresses these fundamental issues through three core practices
 
 - **12 Atomic Notes**: Demonstrating single-concept clarity with the DAE framework (Definition-Analogy-Example)
 - **3 Structure Notes**: Showing how to organize and navigate knowledge networks
-	- Curate, Connect, Cultivate System (main methodology hub)
+	- Networked Thinking System (main methodology hub)
 	- Thinking and Learning (cognitive tools and memory)
 	- System Design (architecture principles)
 - **10 Templates**: For consistent note creation across all types
@@ -60,7 +60,7 @@ This methodology addresses these fundamental issues through three core practices
 ## Vault Structure
 
 ```python sql
-companion-vault/
+networked-thinking/
 ├── Atomic Notes/          # Single-concept notes (YYYYMMDDHHMM format)
 ├── Structure Notes/       # Topic maps and navigation hubs
 ├── Reference Notes/       # Literature notes from external sources
@@ -90,7 +90,7 @@ The AI compatibility isn't coincidental. Large language models process informati
 
 ## Learn More
 
-- **Book**: "Curate, Connect, Cultivate" by Jason Gilbertson and Terri Yeh (coming 2026)
+- **Book**: "Networked Thinking" by Jason Gilbertson and Terri Yeh (coming 2026)
 - **Contact**: jason.gilbertson@gmail.com or yeh.terri@gmail.com for early access or questions
 - **Updates**: Star this repository for notification of new features and workflow examples
 

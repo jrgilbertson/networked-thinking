@@ -1,6 +1,6 @@
 # Getting Started Guide
 
-Welcome! This guide will walk you through exploring and using the Curate, Connect, Cultivate knowledge system. By the end, you'll understand how to create, connect, and cultivate your own knowledge network.
+Welcome! This guide will walk you through exploring and using the Networked Thinking system. By the end, you'll understand how to create, connect, and cultivate your own knowledge network.
 
 ## Before You Begin
 
@@ -19,7 +19,7 @@ Welcome! This guide will walk you through exploring and using the Curate, Connec
 
 ### Start with the Main Hub
 
-1. **Open the Curate, Connect, Cultivate System structure note**
+1. **Open the Networked Thinking System structure note**
 	- Located in `Structure Notes/` folder
 	- This is your main navigation hub
 	- Click through 2-3 linked atomic notes to see how concepts connect
@@ -163,4 +163,4 @@ A: Start with the three provided. Create new ones whenever you have atomic notes
 
 ---
 
-*For the complete methodology and theory behind this system, see "Curate, Connect, Cultivate" by Jason Gilbertson and Terri Yeh (coming 2026).*
+*For the complete methodology and theory behind this system, see "Networked Thinking" by Jason Gilbertson and Terri Yeh (coming 2026).*

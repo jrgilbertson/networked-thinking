@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GETTING-STARTED.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "GETTING-STARTED"
+              "title": "README"
             }
           }
         ]
@@ -96,12 +96,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GETTING-STARTED.md",
+                "file": "README.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from GETTING-STARTED"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -195,8 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 392.5,
-    "collapsed": true
+    "width": 392.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -215,9 +214,9 @@
   },
   "active": "1ad7d3dd4764ce9f",
   "lastOpenFiles": [
+    "GETTING-STARTED.md",
     "LICENSE.md",
     "README.md",
-    "GETTING-STARTED.md",
     "GETTING-STARTED.md.tmp.78182.1756909927711",
     "Templates/Atomic Note Template (Default).md",
     "Atomic Notes/202508311058 An atomic note is a self-contained unit of knowledge that captures a single, complete idea.md",

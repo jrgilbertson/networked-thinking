@@ -4,10 +4,10 @@ date_created: 2025-09-03 14:09
 date_modified: 2025-09-03 14:09
 tags:
   - structure-note
-title: Curate, Connect, Cultivate System
+title: Networked Thinking System
 ---
 
-# Curate, Connect, Cultivate System
+# Networked Thinking System
 
 ## Foundational Concepts
 

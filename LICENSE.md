@@ -33,16 +33,16 @@ Mountain View, CA 94042, USA
 
 When attributing this work, please include:
 
-1. The title: "Curate, Connect, Cultivate Knowledge System"
+1. The title: "Networked Thinking"
 2. The authors: Jason Gilbertson and Terri Yeh
-3. The source: https://github.com/jrgilbertson/curate-connect-cultivate-knowledge-system
+3. The source: https://github.com/jrgilbertson/networked-thinking
 4. The license: CC BY 4.0
 5. Any changes made to the original work
 
 Example attribution:
 
-"Curate, Connect, Cultivate Knowledge System" by Jason Gilbertson and Terri Yeh, licensed under CC BY 4.0. Original source: https://github.com/jrgilbertson/curate-connect-cultivate-knowledge-system. [Describe any changes if applicable.]
+"Networked Thinking" by Jason Gilbertson and Terri Yeh, licensed under CC BY 4.0. Original source: https://github.com/jrgilbertson/networked-thinking. [Describe any changes if applicable.]
 
 ## Note on Related Works
 
-This repository contains the vault template and basic methodology documentation. The comprehensive book "Curate, Connect, Cultivate" by Jason Gilbertson and Terri Yeh (working title; forthcoming 2026) is a separate work with its own copyright.
+This repository contains the vault template and basic methodology documentation. The comprehensive book "Networked Thinking" by Jason Gilbertson and Terri Yeh (forthcoming 2026) is a separate work with its own copyright.
