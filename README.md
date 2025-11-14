@@ -2,7 +2,7 @@
 
 A companion vault for the book "Networked Thinking" (coming 2026). This Obsidian vault demonstrates a methodology for building a sustainable personal knowledge management system that works with how you actually think—and how AI tools process information.
 
-Want to be notified when the book and full companion vault launches? [Join our email list here](https://www.curateconnectcultivate.ai).
+Want to be notified when the book and full companion vault launch? [Join our email list here](https://www.curateconnectcultivate.ai).
 
 ## Why This System?
 
