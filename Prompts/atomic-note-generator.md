@@ -22,7 +22,7 @@ Each atomic note must have the following fields, with NO leading indentation bef
 Flashcard Title: (2–5 words)
 Question: (a single, non-compound question)
 Answer:
-    A comprehensive yet concise self-contained explanation (20–60 words), 
+    A comprehensive yet concise self-contained explanation (20–50 words), 
     thoroughly covering the core concept. The first sentence must be a 
     clear, stand-alone summary.
     

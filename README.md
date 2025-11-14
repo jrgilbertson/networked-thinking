@@ -2,7 +2,7 @@
 
 A companion vault for the book "Networked Thinking" (coming 2026). This Obsidian vault demonstrates a methodology for building a sustainable personal knowledge management system that works with how you actually think—and how AI tools process information.
 
-Want to be notified when the book and full companion vault launches? Join our email list here: https://www.curateconnectcultivate.ai/
+Want to be notified when the book and full companion vault launch? [Join our email list here](https://www.curateconnectcultivate.ai).
 
 ## Why This System?
 
@@ -20,22 +20,24 @@ This methodology addresses these fundamental issues through three core practices
 
 ## What's Included
 
-### ✅ Complete and Ready to Use
+### Complete and Ready to Use
 
 - **12 Atomic Notes**: Demonstrating single-concept clarity with the DAE framework (Definition-Analogy-Example)
 - **3 Structure Notes**: Showing how to organize and navigate knowledge networks
 	- Networked Thinking System (main methodology hub)
 	- Thinking and Learning (cognitive tools and memory)
 	- System Design (architecture principles)
-- **10 Templates**: For consistent note creation across all types
+- **12 Templates**: For consistent note creation across all types
 	- Atomic Note (standard and Anki versions)
-	- Daily Note, Weekly Review, Meeting Note
+	- Daily Note, Weekly Review, Quarterly Review, Meeting Note
+	- Decision Template
 	- Reference Note, Structure Note, Person Note
 	- Vocabulary Note, General Note
 - **1 Reference Note**: "How to Take Smart Notes" fully processed and linked
+- **AI Prompt Library**: Reusable prompts for AI-assisted note creation and knowledge workflows
 - **Core Folder Structure**: Organized for both human navigation and AI compatibility
 
-### 🚧 Coming Soon
+### Coming Soon
 
 - **Workflow Examples**: Daily capture routines, weekly reviews, meeting notes
 - **Additional Sample Notes**: Person profiles, vocabulary entries
@@ -52,14 +54,14 @@ This methodology addresses these fundamental issues through three core practices
 
 ## Getting Started
 
-1. **Install [Obsidian](https://obsidian.md/)** - Free, local-first knowledge management
-2. **Clone or download this repository** - Get the complete vault structure
-3. **Open the folder as a vault in Obsidian** - File → Open Vault → Select folder
-4. **Follow the [GETTING-STARTED.md](GETTING-STARTED.md) guide** - 30-minute hands-on introduction
+1. **Install [Obsidian](https://obsidian.md/)**: Download the free, local-first knowledge management app.
+2. **Clone or download this repository**: Get the complete vault structure with all templates and examples.
+3. **Open the folder as a vault in Obsidian**: Select File → Open Vault → Choose the networked-thinking folder.
+4. **Follow the [GETTING-STARTED.md](GETTING-STARTED.md) guide**: Complete the 30-minute hands-on introduction to create your first atomic note.
 
 ## Vault Structure
 
-```python sql
+```
 networked-thinking/
 ├── Atomic Notes/          # Single-concept notes (YYYYMMDDHHMM format)
 ├── Structure Notes/       # Topic maps and navigation hubs
@@ -70,17 +72,20 @@ networked-thinking/
 ├── Projects/            # Active project documentation
 ├── People/              # Individual profiles and connections
 ├── Meetings/            # Meeting notes and decisions
+├── Places and Things/   # Location and object references (optional)
+├── Vocabulary Notes/    # Language learning and pronunciation (optional)
+├── Prompts/             # AI workflows for recurring tasks
 └── Attachments/         # Images and supporting files
 ```
 
 ## Key Features
 
-- **Timestamp-based naming** (YYYYMMDDHHMM) ensures uniqueness and chronology
-- **Consistent note structure** via templates for reliable processing
-- **Multiple navigation paths** through aliases, tags, and backlinks
-- **Minimal plugin dependencies** for sustainability and portability
-- **Git-friendly plain text** for version control and collaboration
-- **AI-compatible structure** for enhanced knowledge work
+- **Timestamp-based naming**: Every atomic note uses YYYYMMDDHHMM format to ensure uniqueness and chronological ordering.
+- **Consistent note structure**: Templates provide reliable starting points for processing information across all note types.
+- **Multiple navigation paths**: Find information through aliases, tags, backlinks, and structure notes instead of rigid hierarchies.
+- **Minimal plugin dependencies**: The system works with core Obsidian features for long-term sustainability and portability.
+- **Git-friendly plain text**: All notes are markdown files that work seamlessly with version control and collaboration tools.
+- **AI-compatible structure**: Consistent formatting and explicit connections enable AI tools to navigate and enhance your knowledge system.
 
 ## Philosophy
 
@@ -90,9 +95,9 @@ The AI compatibility isn't coincidental. Large language models process informati
 
 ## Learn More
 
-- **Book**: "Networked Thinking" by Jason Gilbertson and Terri Yeh (coming 2026)
-- **Contact**: jason.gilbertson@gmail.com or yeh.terri@gmail.com for early access or questions
-- **Updates**: Star this repository for notification of new features and workflow examples
+- **Book**: "Networked Thinking" by Jason Gilbertson and Terri Yeh launches in 2026.
+- **Contact**: Email [jason.gilbertson@gmail.com](mailto:jason.gilbertson@gmail.com) or [yeh.terri@gmail.com](mailto:yeh.terri@gmail.com) for early access or questions.
+- **Updates**: Star this repository to receive notifications when new features and workflow examples are added.
 
 ## License
 

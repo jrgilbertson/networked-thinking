@@ -1,8 +1,8 @@
 ---
-aliases:
+aliases: []
 date_created:
 date_modified:
-tags:
+tags: []
 title: Title
 ---
 
