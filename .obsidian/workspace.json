@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Structure Notes/Networked Thinking System.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Networked Thinking System"
             }
           }
         ]
@@ -96,12 +96,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
-                "linksCollapsed": true,
+                "file": "Structure Notes/Networked Thinking System.md",
+                "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links from Networked Thinking System"
             }
           },
           {
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GETTING-STARTED.md",
+                "file": "Structure Notes/Networked Thinking System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for GETTING-STARTED"
+              "title": "Backlinks for Networked Thinking System"
             }
           },
           {
@@ -214,35 +214,36 @@
   },
   "active": "1ad7d3dd4764ce9f",
   "lastOpenFiles": [
-    "GETTING-STARTED.md",
-    "LICENSE.md",
-    "README.md",
-    "GETTING-STARTED.md.tmp.78182.1756909927711",
-    "Templates/Atomic Note Template (Default).md",
-    "Atomic Notes/202508311058 An atomic note is a self-contained unit of knowledge that captures a single, complete idea.md",
-    "Atomic Notes/202509011019 A structure note serves as a curated entry point or an organized overview of a specific topic or line of thought within a note network.md",
-    "Atomic Notes/202504231231 The Stoic dichotomy of control divides reality into things we can control—our judgments, desires, and actions—and things we cannot, such as external events, other people, and outcomes.md",
     "Structure Notes/System Design.md",
-    "Reviews/Daily Notes/2025-09-03.md",
     "Structure Notes/Thinking and Learning.md",
-    "Structure Notes/Curate, Connect, Cultivate System.md",
-    "Atomic Notes/202509030651 The 5W framework is a system that uses five quality-gate questions to decide whether to engage with a piece of information.md",
-    "Atomic Notes/202509030636 The DAE framework is a structured method for writing atomic notes that ensures clarity and retention by organizing each note into three parts—a concise Definition, a relatable Analogy, and a concrete Example.md",
-    "Atomic Notes/202509030621 A reference note captures key ideas from an external source, serving as a bridge between consuming information and creating original thought.md",
-    "Atomic Notes/202509011003 The Zettelkasten method is a knowledge management system that organizes information into a network of interconnected, atomic notes.md",
-    "Atomic Notes/202509010956 The Ebbinghaus forgetting curve is a model showing how memory retention declines exponentially over time if there is no attempt to review the learned information.md",
-    "Atomic Notes/202509010952 Spaced repetition is a learning technique that involves reviewing information at increasing intervals to improve long-term retention.md",
-    "Atomic Notes/202508311142 A graph is a non-linear data structure composed of a set of vertices (or nodes) and a set of edges that represent connections between these vertices.md",
+    "Structure Notes/Networked Thinking System.md",
+    "Reviews/Daily Notes/2025-11-14.md",
+    "Templates/Atomic Note Template (Anki).md",
+    "Templates/Atomic Note Template (Default).md",
+    "Templates/Daily Note Template.md",
+    "Templates/Decision Template.md",
+    "Templates/General Note Template.md",
+    "Templates/Meeting Template.md",
+    "Templates/Person Template.md",
+    "Templates/Quarterly Review Template.md",
+    "Templates/Reference Note Template.md",
+    "Templates/Structure Note Template.md",
+    "Templates/Vocabulary Template.md",
+    "Templates/Weekly Review Template.md",
+    "README.md",
+    "Prompts/atomic-note-generator.md",
     "Atomic Notes/202508311132 Modularity is a software design principle that involves dividing a program into separate, independent modules, where each module is responsible for a specific piece of the program's functionality.md",
     "Atomic Notes/202508311127 The principle of atomicity is the practice of breaking information into small, self-contained units, with each unit focused on a single, complete idea.md",
-    "Reviews/Daily Notes/2025-09-01.md",
+    "Atomic Notes/202508311058 An atomic note is a self-contained unit of knowledge that captures a single, complete idea.md",
+    "Atomic Notes/202504231231 The Stoic dichotomy of control divides reality into things we can control—our judgments, desires, and actions—and things we cannot, such as external events, other people, and outcomes.md",
+    "LICENSE.md",
+    "GETTING-STARTED.md",
+    "GETTING-STARTED.md.tmp.78182.1756909927711",
+    "Atomic Notes/202509011019 A structure note serves as a curated entry point or an organized overview of a specific topic or line of thought within a note network.md",
+    "Reviews/Daily Notes/2025-09-03.md",
     "Attachments/20240905205858 Ebbinghaus forgetting curve.png",
-    "Reviews/Daily Notes/2025-08-31.md",
-    "Reference Notes/Books/How to Take Smart Notes.md",
     "Reference Notes/Books",
     "Reference Notes/Articles",
-    "Templates/Reference Note Template.md",
-    "Prompts/atomic-note-generator.md",
     "Prompts/atomic-note-generator.xml",
     "Prompts",
     "CLAUDE.md.tmp.61697.1752349753739",

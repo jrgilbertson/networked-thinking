@@ -1,7 +1,7 @@
 ---
 aliases: []
-date_created:
-date_modified:
+date_created: 
+date_modified: 
 tags:
   - vocabulary
 title: Word
@@ -15,7 +15,7 @@ START
 
 [Insert note type here]
 
-Word
+Word (type)
 
 Back: Definition
 

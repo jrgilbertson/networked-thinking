@@ -2,8 +2,7 @@
 aliases: []
 date_created:
 date_modified:
-tags:
-  - structure-note
+tags: []
 title: Title
 ---
 

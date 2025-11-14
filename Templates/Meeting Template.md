@@ -13,11 +13,9 @@ title: Meeting
 
 Attendees include:
 
-1. [Insert your name] (notetaker)
+1. [[Link to yourself]] (notetaker)
 
 ## Notes
-
-For most notes, the speaker's initials precede the note. For example, "Ja: message" for Jason. Assume notes without the speaker's initials are from the last initials given. Key points are highlighted in bold.
 
 1. **Pre-Meeting Agenda and Notes:**
 	1. None

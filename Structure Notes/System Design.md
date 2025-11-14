@@ -1,9 +1,8 @@
 ---
 aliases: []
 date_created: 2025-09-03 14:09
-date_modified: 2025-09-03 14:09
-tags:
-  - structure-note
+date_modified: 2025-11-14 18:11
+tags: []
 title: System Design
 ---
 
