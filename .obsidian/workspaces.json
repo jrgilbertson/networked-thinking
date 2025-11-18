@@ -15,12 +15,22 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "README.md",
+                    "file": "Structure Notes/Networked Thinking System.md",
                     "mode": "source",
-                    "source": false
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
                   },
                   "icon": "lucide-file",
-                  "title": "README"
+                  "title": "Networked Thinking System"
                 }
               }
             ]
@@ -88,12 +98,12 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "README.md",
-                    "linksCollapsed": true,
+                    "file": "Structure Notes/Networked Thinking System.md",
+                    "linksCollapsed": false,
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-going-out",
-                  "title": "Outgoing links from README"
+                  "title": "Outgoing links from Networked Thinking System"
                 }
               },
               {
@@ -102,7 +112,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Reviews/Daily Notes/2025-01-28.md",
+                    "file": "Structure Notes/Networked Thinking System.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -112,7 +122,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for 2025-01-28"
+                  "title": "Backlinks for Networked Thinking System"
                 }
               },
               {
@@ -121,13 +131,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Atomic Notes/202507081717 Stylometry is the statistical analysis of writing style to identify authorship or linguistic patterns.md",
+                    "file": "GETTING-STARTED.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of 202507081717 Stylometry is the statistical analysis of writing style to identify authorship or linguistic patterns"
+                  "title": "Outline of GETTING-STARTED"
                 }
               },
               {
@@ -174,6 +184,43 @@
             "type": "tabs",
             "children": [
               {
+                "id": "73cd1b47887df4de",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "Structure Notes/Networked Thinking System.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1.5449301742781265,
+                      "close": true
+                    }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Graph of Networked Thinking System"
+                }
+              },
+              {
                 "id": "4a8a4e1aa654648e",
                 "type": "leaf",
                 "state": {
@@ -187,10 +234,11 @@
           }
         ],
         "direction": "horizontal",
-        "width": 392.5
+        "width": 335.5
       },
       "left-ribbon": {
         "hiddenItems": {
+          "bases:Create new base": false,
           "graph:Open graph view": false,
           "workspaces:Manage workspace layouts": false,
           "zk-prefixer:Create new unique note": true,
@@ -204,7 +252,7 @@
         }
       },
       "active": "99a9449ca8f08291",
-      "mtime": "2025-07-12T12:38:53-07:00"
+      "mtime": "2025-11-17T17:46:13-08:00"
     }
   },
   "active": "Primary"

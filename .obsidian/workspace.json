@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Structure Notes/Networked Thinking System.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Networked Thinking System"
+              "title": "README"
             }
           }
         ]
@@ -96,12 +96,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Structure Notes/Networked Thinking System.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Networked Thinking System"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -182,6 +182,43 @@
         "type": "tabs",
         "children": [
           {
+            "id": "73cd1b47887df4de",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "README.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1.5449301742781265,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of README"
+            }
+          },
+          {
             "id": "4a8a4e1aa654648e",
             "type": "leaf",
             "state": {
@@ -195,7 +232,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 392.5
+    "width": 335.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,33 +251,33 @@
   },
   "active": "1ad7d3dd4764ce9f",
   "lastOpenFiles": [
+    "GETTING-STARTED.md",
+    "README.md",
+    "LICENSE.md",
+    "Structure Notes/Networked Thinking System.md",
+    "Atomic Notes/202509011003 The Zettelkasten method is a knowledge management system that organizes information into a network of interconnected, atomic notes.md",
+    "Atomic Notes/202508311058 An atomic note is a self-contained unit of knowledge that captures a single, complete idea.md",
+    "Templates/Quarterly Review Template.md",
+    "Templates/Decision Template.md",
+    "Reviews/Daily Notes/2025-11-14.md",
+    "Reviews/Daily Notes/2025-09-03.md",
+    "Reviews/Daily Notes/2025-09-01.md",
+    "Reviews/Daily Notes/2025-08-31.md",
     "Structure Notes/System Design.md",
     "Structure Notes/Thinking and Learning.md",
-    "Structure Notes/Networked Thinking System.md",
-    "Reviews/Daily Notes/2025-11-14.md",
     "Templates/Atomic Note Template (Anki).md",
     "Templates/Atomic Note Template (Default).md",
     "Templates/Daily Note Template.md",
-    "Templates/Decision Template.md",
     "Templates/General Note Template.md",
     "Templates/Meeting Template.md",
     "Templates/Person Template.md",
-    "Templates/Quarterly Review Template.md",
     "Templates/Reference Note Template.md",
     "Templates/Structure Note Template.md",
     "Templates/Vocabulary Template.md",
     "Templates/Weekly Review Template.md",
-    "README.md",
     "Prompts/atomic-note-generator.md",
     "Atomic Notes/202508311132 Modularity is a software design principle that involves dividing a program into separate, independent modules, where each module is responsible for a specific piece of the program's functionality.md",
-    "Atomic Notes/202508311127 The principle of atomicity is the practice of breaking information into small, self-contained units, with each unit focused on a single, complete idea.md",
-    "Atomic Notes/202508311058 An atomic note is a self-contained unit of knowledge that captures a single, complete idea.md",
-    "Atomic Notes/202504231231 The Stoic dichotomy of control divides reality into things we can control—our judgments, desires, and actions—and things we cannot, such as external events, other people, and outcomes.md",
-    "LICENSE.md",
-    "GETTING-STARTED.md",
     "GETTING-STARTED.md.tmp.78182.1756909927711",
-    "Atomic Notes/202509011019 A structure note serves as a curated entry point or an organized overview of a specific topic or line of thought within a note network.md",
-    "Reviews/Daily Notes/2025-09-03.md",
     "Attachments/20240905205858 Ebbinghaus forgetting curve.png",
     "Reference Notes/Books",
     "Reference Notes/Articles",
