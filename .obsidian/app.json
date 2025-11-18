@@ -17,5 +17,6 @@
     "Nocebo"
   ],
   "newFileLocation": "folder",
-  "newFileFolderPath": "Inbox"
+  "newFileFolderPath": "Inbox",
+  "useTab": false
 }

@@ -1,7 +1,7 @@
 ---
 aliases: []
 date_created: 2025-09-03 14:09
-date_modified: 2025-11-14 18:11
+date_modified: 2025-11-18 01:11
 tags: []
 title: Networked Thinking System
 ---
