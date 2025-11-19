@@ -13,7 +13,7 @@ title: Meeting
 
 Attendees include:
 
-1. [[Link to yourself]] (notetaker)
+1. [[Your Name]] (notetaker)
 
 ## Notes
 

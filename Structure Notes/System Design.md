@@ -1,7 +1,7 @@
 ---
 aliases: []
 date_created: 2025-09-03 14:09
-date_modified: 2025-11-14 18:11
+date_modified: 2025-11-18 19:11
 tags: []
 title: System Design
 ---
@@ -15,3 +15,4 @@ title: System Design
 ## Computational Thinking
 
 1. [[202508311132 Modularity is a software design principle that involves dividing a program into separate, independent modules, where each module is responsible for a specific piece of the program's functionality]]
+2. [[202511181119 Abstraction is the process of identifying and isolating the essential features of a concept or object while deliberately ignoring irrelevant details]]

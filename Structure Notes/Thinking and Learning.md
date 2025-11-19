@@ -1,12 +1,17 @@
 ---
 aliases: []
 date_created: 2025-09-03 14:09
-date_modified: 2025-11-14 18:11
+date_modified: 2025-11-18 19:11
 tags: []
 title: Thinking and Learning
 ---
 
 # Thinking and Learning
+
+## Knowledge Management
+
+1. [[202509011003 The Zettelkasten method is a knowledge management system that organizes information into a network of interconnected, atomic notes]]
+2. [[202511181121 Pattern recognition is the cognitive ability to identify recurring structures, regularities, or relationships across different instances of data or experiences]]
 
 ## Philosophy
 
