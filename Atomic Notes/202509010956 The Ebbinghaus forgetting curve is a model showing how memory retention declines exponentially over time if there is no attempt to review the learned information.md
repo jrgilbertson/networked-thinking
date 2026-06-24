@@ -22,7 +22,7 @@ For example, after studying a list of new vocabulary words, a person might recal
 Reference:
 
 - Related concept: [[202509010952 Spaced repetition is a learning technique that involves reviewing information at increasing intervals to improve long-term retention|Spaced Repetition]].
-![[20240905205858 Ebbinghaus forgetting curve.png]]
+- ![[20240905205858 Ebbinghaus forgetting curve.png]]
 
 Sources:
 
