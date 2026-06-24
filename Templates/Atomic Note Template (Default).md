@@ -14,6 +14,10 @@ title: Title
 
 For example, [EXAMPLE: Concrete application]
 
+Reference:
+
+- [[Link to a related note]]
+
 Sources:
 
 1. [x]
