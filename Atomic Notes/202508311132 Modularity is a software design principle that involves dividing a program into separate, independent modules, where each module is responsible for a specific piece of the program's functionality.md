@@ -17,6 +17,10 @@ Think of a car's construction. A car is not built as a single, monolithic piece 
 
 For example, a large e-commerce website is built modularly. One module might handle user authentication (login, registration), another manages the product catalog, a third processes payments, and a fourth handles shipping. Each can be updated or replaced without rebuilding the entire website.
 
+Reference:
+
+- Related concepts: [[202511181119 Abstraction is the process of identifying and isolating the essential features of a concept or object while deliberately ignoring irrelevant details|Abstraction]] and [[202508311142 A graph is a non-linear data structure composed of a set of vertices (or nodes) and a set of edges that represent connections between these vertices|Graph Data Structure]].
+
 Sources:
 
 1. Gemini 2.5 last accessed [[2025-08-31]]

@@ -17,6 +17,10 @@ This technique is like a gardener watering a plant. Rather than flooding the pla
 
 For example, when learning Spanish vocabulary, you might review the word "gato" (cat) after one day, then three days, then one week, and then two weeks. Each successful recall pushes the next review further into the future, expanding the interval as the word becomes more firmly embedded in memory.
 
+Reference:
+
+- Related concepts: [[202509010956 The Ebbinghaus forgetting curve is a model showing how memory retention declines exponentially over time if there is no attempt to review the learned information|Ebbinghaus Forgetting Curve]] and [[202509011003 The Zettelkasten method is a knowledge management system that organizes information into a network of interconnected, atomic notes|Zettelkasten]].
+
 Sources:
 
 1. Gemini 2.5 last accessed [[2025-09-01]]

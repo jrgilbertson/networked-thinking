@@ -16,6 +16,10 @@ Think of a structure note as the table of contents for a specific topic within y
 
 For example, a student might create a "Stoicism" structure note that contains an ordered list of links to their [[202508311058 An atomic note is a self-contained unit of knowledge that captures a single, complete idea|atomic notes]] on "The [[202504231231 The Stoic dichotomy of control divides reality into things we can control—our judgments, desires, and actions—and things we cannot, such as external events, other people, and outcomes|Dichotomy of Control]]," "Amor Fati," and "Premeditatio Malorum," providing a clear learning path through the philosophy.
 
+Reference:
+
+- Related concepts: [[202509011003 The Zettelkasten method is a knowledge management system that organizes information into a network of interconnected, atomic notes|Zettelkasten]] and [[202508311058 An atomic note is a self-contained unit of knowledge that captures a single, complete idea|Atomic Note]].
+
 Sources:
 
 1. Gemini 2.5 last accessed [[2025-09-01]]

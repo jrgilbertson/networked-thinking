@@ -16,6 +16,10 @@ The DAE framework is like a three-legged stool for knowledge. The Definition is 
 
 For example, when creating a note about "cognitive dissonance," you would first define it in your own words, then create an analogy (like holding two opposing magnets), and finally provide a real-world example (like a smoker who knows smoking is unhealthy).
 
+Reference:
+
+- Related concepts: [[202508311058 An atomic note is a self-contained unit of knowledge that captures a single, complete idea|Atomic Note]] and [[202509030651 The 5W framework is a system that uses five quality-gate questions to decide whether to engage with a piece of information|5W Framework]].
+
 Sources:
 
 1. Gemini 2.5 last accessed [[2025-09-03]]
