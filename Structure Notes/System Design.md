@@ -8,6 +8,8 @@ title: System Design
 
 # System Design
 
+A map of computer-science ideas that inform how this knowledge system is built—data structures and computational-thinking concepts worth borrowing.
+
 ## Data Structures
 
 1. [[202508311142 A graph is a non-linear data structure composed of a set of vertices (or nodes) and a set of edges that represent connections between these vertices]]

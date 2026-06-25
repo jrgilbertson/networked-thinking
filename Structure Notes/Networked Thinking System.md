@@ -8,6 +8,8 @@ title: Networked Thinking System
 
 # Networked Thinking System
 
+The main hub for the Curate, Connect, Cultivate methodology—start here and follow the links to see how the foundational concepts and frameworks fit together.
+
 ## Foundational Concepts
 
 1. [[202509011003 The Zettelkasten method is a knowledge management system that organizes information into a network of interconnected, atomic notes]]

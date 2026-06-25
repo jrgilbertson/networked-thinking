@@ -16,6 +16,8 @@ title: How to Take Smart Notes
 - Author: [[Sönke Ahrens]]
 - Full Title: How to Take Smart Notes
 - Category: #books
+- Summary: How to build a Zettelkasten slip-box of atomic, linked notes so writing and thinking compound over time, drawn from Niklas Luhmann's workflow.
+- URL:
 
 ## Highlights
 
