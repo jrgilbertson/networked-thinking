@@ -8,3 +8,6 @@
 
 # Ignore Claude Code folder
 .claude
+
+# Ignore Obsidian per-machine UI state (churns on every open/close)
+.obsidian/workspace.json
