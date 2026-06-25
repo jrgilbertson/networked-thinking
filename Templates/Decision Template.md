@@ -1,83 +1,68 @@
 ---
-aliases: 
-date_created: 
-date_modified: 
+aliases: []
+confidence:
+date_created:
+date_modified:
+decision_date:
+owner:
+reversibility:
+review_date:
 tags:
   - decision
-title: Decision Template
+title: "{{Title}}"
 ---
 
-# Decision Template
+# {{Title}}
 
-This decision template combines key elements from various decision-making frameworks, including second-order thinking, Munger's inversion technique, scenario analysis, and the DECIDE framework. It offers a comprehensive yet practical approach to complex decision-making.
+{{One-sentence summary of the decision or decision being prepared.}}
 
-Instructions for use:
+## Decision
 
-1. Use this template for significant decisions that have long-term implications or complex consequences.
-2. It's best suited for strategic business decisions, major personal life choices, or any situation with high stakes, and multiple factors need to be considered.
-3. Fill out each section thoughtfully, considering various perspectives and potential outcomes.
-4. Be honest about probabilities and potential risks.
-5. Revisit the retrospective section after sufficient time to learn from the decision's outcomes.
+{{State the decision in plain language. If the decision is not made yet, state the decision being considered.}}
 
-## Define the Situation
+## Why This Matters Now
 
-1. What is the problem or opportunity you're facing
-2. What are the key constraints or parameters?
-3. What are the success criteria?
+{{What changed, what decision is needed, and what happens if this waits.}}
 
-## Identify Options
+## Criteria
 
-Include the status quo, if relevant.
+{{The few things this decision should optimize for. Keep this short.}}
 
-1. Option A:
-2. Option B:
-3. Option C:
-
-## Analysis of Each Option
-
-Use the following structure for each option.
+## Options
 
 ### Option A
 
-#### First-Order Consequences
+{{Describe the option in plain language. Include the upside, the meaningful cost or risk, and what choosing this would rule out.}}
 
-1. What are the immediate and direct results of choosing this option? List 2-3 key outcomes that are likely to occur in the short term.
+### Option B
 
-#### Second-Order Thinking
+{{Describe the option in plain language. Include the upside, the meaningful cost or risk, and what choosing this would rule out.}}
 
-1. What might happen next? (2-3 key "And then what?" scenarios)
-2. Who else might be affected, and how might they react?
+### Status Quo
 
-#### Scenario Analysis
+{{Describe what happens if nothing changes. Include what this preserves, what risk or cost remains, and what future options may close.}}
 
-Assign a probability score to each.
+## Rationale
 
-1. Best-case outcome:
-2. Moderate case outcome:
-3. Worst-case outcome:
+{{Why the chosen option wins. Name the tradeoff being accepted.}}
 
-#### Consensus View
+## Assumptions & Reversal Triggers
 
-1. How does this option align with or differ from the consensus view?
-2. What if the consensus view is correct?
+{{Capture the assumptions this decision depends on. For each one, note what evidence supports it and what signal would make the decision worth revisiting.}}
 
-#### Inversion
+## Sources
 
-1. How could this option lead to failure?
-2. What can be done to prevent or mitigate these risks?
+- Source
 
-## Decision and Rationale
+## Follow-ups
 
-1. Which option is selected and why?
-2. How does it compare to the other options regarding potential outcomes and risks?
+{{Point to routed work only. Include explicit dates only when they drive real follow-up or review behavior. Do not turn this into a task tracker.}}
 
-## Next Steps
+## Review
 
-1. What are the immediate actions to implement this decision?
-2. How will you monitor its effectiveness?
+{{Fill this in on or after the review date.}}
 
-## Retrospective
-
-1. What happened?
-2. How did the outcomes compare to your expectations?
-3. What lessons were learned?
+- Outcome:
+- What was right:
+- What was missed:
+- Would I make the same decision again?

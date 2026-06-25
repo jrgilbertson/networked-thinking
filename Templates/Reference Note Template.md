@@ -1,18 +1,23 @@
 ---
-aliases: 
-date_created: 
-date_modified: 
+aliases: []
+date_created:
+date_modified:
 tags: []
-title: Title
+title: "{{Title}}"
 ---
 
-# Title
+# {{Title}}
 
 ## Metadata
 
 - Author:
 - Full Title:
-- Category: #articles or #books or #videos
+- Category:
+- Summary:
 - URL:
 
 ## Highlights
+
+{{Key quotes, passages, and takeaways worth preserving. Keep the source's wording for quotes and add your own commentary separately. Link related atomic or structure notes.}}
+
+-
