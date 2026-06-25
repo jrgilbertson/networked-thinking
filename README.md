@@ -2,7 +2,7 @@
 
 The official companion vault for "Networked Thinking" (launching 2026). It's a complete, working implementation of the methodology with examples of every component you'll read about in the book.
 
-Want to be notified when the book launches? [Join our email list here](https://www.curateconnectcultivate.ai).
+Want to be notified when the book launches? [Join our email list here](https://www.networkedthinking.ai).
 
 ## Why This System?
 
@@ -29,12 +29,12 @@ This vault contains working examples of every component described in the "Networ
     - Networked Thinking System (main methodology hub)
     - Thinking and Learning (cognitive tools and memory)
     - System Design (architecture principles)
-- **12 Templates**: For consistent note creation across all types
-    - Atomic Note (standard and Anki versions)
+- **14 Templates**: For consistent note creation across all types
+    - Atomic Note (with optional Anki block)
     - Daily Note, Weekly Review, Quarterly Review, Meeting Note
-    - Decision Template
-    - Reference Note, Structure Note, Person Note
-    - Vocabulary Note, General Note
+    - Decision, Reference Note, Structure Note, Person Note
+    - Vocabulary, General Note
+    - Company, Content, Writing Draft
 - **1 Reference Note**: "How to Take Smart Notes" fully processed and linked
 - **AI prompts (dual-track)**: The book's ready-to-use atomic-note prompt lives in Appendix D—paste it into any chat AI. For agentic assistants working directly in your vault, the open-source [Networked Thinking Skills](https://github.com/jrgilbertson/networked-thinking-skills) project adds `atomic-note` and `atomic-note-audit` skills (`npx skills add`). Collect your own prompts in the `Prompts/` folder.
 - **Core Folder Structure**: Organized for both human navigation and AI compatibility
