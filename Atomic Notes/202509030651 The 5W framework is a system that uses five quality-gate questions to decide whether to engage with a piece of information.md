@@ -22,6 +22,10 @@ Think of the 5W framework as a bouncer at an exclusive club for your mind. Befor
 
 For example, before saving an article about a new programming language, you would ask: "What for?" (to use on a specific project), "Why now?" (the project starts next week), "What else?" (I'm not reading the documentation for my current language), "Who from?" (an industry-leading expert), and "Where to?" (it connects to my [[202508311058 An atomic note is a self-contained unit of knowledge that captures a single, complete idea|atomic notes]] on software development).
 
+Reference:
+
+- Related concepts: [[202509030636 The DAE framework is a structured method for writing atomic notes that ensures clarity and retention by organizing each note into three parts—a concise Definition, a relatable Analogy, and a concrete Example|DAE Framework]] and [[202509030621 A reference note captures key ideas from an external source, serving as a bridge between consuming information and creating original thought|Reference Note]].
+
 Sources:
 
 1. Gemini 2.5 last accessed [[2025-09-03]]

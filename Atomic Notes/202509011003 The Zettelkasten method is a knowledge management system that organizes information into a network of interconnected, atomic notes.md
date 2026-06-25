@@ -18,6 +18,10 @@ Think of it as a personal, internal version of Wikipedia. Each note is like a si
 
 For example, a researcher studying productivity might create a note on the "Pomodoro Technique" and link it to other notes on "Time Blocking," "Deep Work," and "Cognitive Load Theory," building a web of related concepts rather than storing them in separate, unrelated documents.
 
+Reference:
+
+- Related concepts: [[202508311058 An atomic note is a self-contained unit of knowledge that captures a single, complete idea|Atomic Note]] and [[202509011019 A structure note serves as a curated entry point or an organized overview of a specific topic or line of thought within a note network|Structure Note]].
+
 Sources:
 
 1. Gemini 2.5 last accessed [[2025-09-01]]

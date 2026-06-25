@@ -17,6 +17,10 @@ Think of pattern recognition like a musician hearing a chord progression. Even i
 
 For example, a doctor recognizes patterns when diagnosing illness—they notice that fever, cough, and fatigue together suggest influenza because they've seen this combination repeatedly in past patients. This pattern recognition allows them to make accurate diagnoses quickly without needing to investigate every possible illness from scratch each time.
 
+Reference:
+
+- Related concepts: [[202509011003 The Zettelkasten method is a knowledge management system that organizes information into a network of interconnected, atomic notes|Zettelkasten]] and [[202511181119 Abstraction is the process of identifying and isolating the essential features of a concept or object while deliberately ignoring irrelevant details|Abstraction]].
+
 Sources:
 
 1. Claude Sonnet 4.5 last accessed [[2025-11-18]]

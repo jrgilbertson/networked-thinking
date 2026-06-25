@@ -15,6 +15,10 @@ Think of abstraction like using a subway map. The map doesn't show every buildin
 
 For example, when a programmer creates a "User" class in software, they abstract the concept of a user by including only relevant attributes like username and email, while ignoring countless real-world details like hair color, favorite food, or shoe size. This abstraction makes the code manageable and focused on what the application actually needs.
 
+Reference:
+
+- Related concepts: [[202508311132 Modularity is a software design principle that involves dividing a program into separate, independent modules, where each module is responsible for a specific piece of the program's functionality|Modularity]] and [[202508311142 A graph is a non-linear data structure composed of a set of vertices (or nodes) and a set of edges that represent connections between these vertices|Graph Data Structure]].
+
 Sources:
 
 1. Claude Sonnet 4.5 last accessed [[2025-11-18]]

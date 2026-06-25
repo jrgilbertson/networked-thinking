@@ -19,7 +19,10 @@ This process is like a hot cup of coffee cooling down. It loses heat rapidly at 
 
 For example, after studying a list of new vocabulary words, a person might recall 100% immediately, but only 60% after 20 minutes, 45% after an hour, and just 20% after a month if they do not review the material at all.
 
-![[20240905205858 Ebbinghaus forgetting curve.png]]
+Reference:
+
+- Related concept: [[202509010952 Spaced repetition is a learning technique that involves reviewing information at increasing intervals to improve long-term retention|Spaced Repetition]].
+- ![[20240905205858 Ebbinghaus forgetting curve.png]]
 
 Sources:
 

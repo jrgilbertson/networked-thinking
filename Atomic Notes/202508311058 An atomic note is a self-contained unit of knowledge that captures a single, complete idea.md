@@ -16,6 +16,10 @@ Think of atomic notes as LEGO bricks. Each brick is a simple, independent unit, 
 
 For example, instead of a long note titled "Photosynthesis," you would create separate atomic notes for "Chlorophyll's Role in Light Absorption," "The Calvin Cycle," and "Inputs and Outputs of Photosynthesis." Each note stands alone but can be linked to the others.
 
+Reference:
+
+- Related concepts: [[202508311127 The principle of atomicity is the practice of breaking information into small, self-contained units, with each unit focused on a single, complete idea|Principle of Atomicity]] and [[202509011003 The Zettelkasten method is a knowledge management system that organizes information into a network of interconnected, atomic notes|Zettelkasten]].
+
 Sources:
 
 1. Gemini 2.5 last accessed [[2025-08-31]]

@@ -18,6 +18,10 @@ Think of it as a field journalist's notebook. For some information, the journali
 
 For example, after reading a scientific paper, you might create a reference note that summarizes the study's methodology in your own words but also includes a direct quote of the paper's central hypothesis to capture its exact wording for future citation.
 
+Reference:
+
+- Related concepts: [[202509011019 A structure note serves as a curated entry point or an organized overview of a specific topic or line of thought within a note network|Structure Note]] and [[202508311058 An atomic note is a self-contained unit of knowledge that captures a single, complete idea|Atomic Note]].
+
 Sources:
 
 1. Gemini 2.5 last accessed [[2025-09-03]]

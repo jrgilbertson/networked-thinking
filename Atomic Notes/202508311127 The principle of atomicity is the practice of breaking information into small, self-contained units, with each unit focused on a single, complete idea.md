@@ -16,6 +16,10 @@ This principle is like organizing a kitchen pantry. Instead of keeping a large, 
 
 For example, instead of writing one long note about the American Revolution, an atomic approach would create separate notes for "The Stamp Act of 1765," "The Boston Tea Party," and "The role of mercantilism in colonial unrest," each fully explaining its specific topic.
 
+Reference:
+
+- Related concepts: [[202508311058 An atomic note is a self-contained unit of knowledge that captures a single, complete idea|Atomic Note]] and [[202508311132 Modularity is a software design principle that involves dividing a program into separate, independent modules, where each module is responsible for a specific piece of the program's functionality|Modularity]].
+
 Sources:
 
 1. Gemini 2.5 last accessed [[2025-08-31]]

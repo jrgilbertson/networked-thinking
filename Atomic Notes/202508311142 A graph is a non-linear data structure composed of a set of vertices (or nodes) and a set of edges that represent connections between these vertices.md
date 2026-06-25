@@ -18,6 +18,10 @@ Think of a graph as a city map. Each intersection or landmark is a vertex, and t
 
 For example, on a social media platform, each user profile is a vertex, and a "friendship" or "follow" connection between two users is an edge. This graph structure allows the platform to suggest mutual friends and analyze the social network's connections.
 
+Reference:
+
+- Related concepts: [[202508311132 Modularity is a software design principle that involves dividing a program into separate, independent modules, where each module is responsible for a specific piece of the program's functionality|Modularity]] and [[202509011003 The Zettelkasten method is a knowledge management system that organizes information into a network of interconnected, atomic notes|Zettelkasten]].
+
 Sources:
 
 1. Gemini 2.5 last accessed [[2025-08-31]]

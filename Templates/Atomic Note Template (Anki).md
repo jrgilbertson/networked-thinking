@@ -24,6 +24,10 @@ For example, [EXAMPLE: Concrete application]
 
 END
 
+Reference:
+
+- [[Link to a related note]]
+
 Sources:
 
 1. x
