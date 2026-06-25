@@ -21,4 +21,4 @@ Reference:
 
 Sources:
 
-1. Claude Sonnet 4.5 last accessed [[2025-11-18]]
+1. Claude Opus 4.8 last accessed [[2026-06-25]]
