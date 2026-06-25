@@ -36,15 +36,14 @@ This vault contains working examples of every component described in the "Networ
     - Reference Note, Structure Note, Person Note
     - Vocabulary Note, General Note
 - **1 Reference Note**: "How to Take Smart Notes" fully processed and linked
-- **AI Prompt Library (starter)**: Initial prompt for atomic note generation
+- **AI prompts (dual-track)**: The book's ready-to-use atomic-note prompt lives in Appendix D—paste it into any chat AI. For agentic assistants working directly in your vault, the open-source [Networked Thinking Skills](https://github.com/jrgilbertson/networked-thinking-skills) project adds `atomic-note` and `atomic-note-audit` skills (`npx skills add`). Collect your own prompts in the `Prompts/` folder.
 - **Core Folder Structure**: Organized for both human navigation and AI compatibility
 - **Workflow Examples**: Sample daily notes (5), weekly reviews, and meeting notes demonstrating capture and reflection practices
-- **Sample Person Notes**: 3 person profile examples (Carl Sagan, Grace Hopper, and starter template)
+- **Sample Person Notes**: 3 person profile examples (Carl Sagan, Grace Hopper, and a "Your Name" starter)
 
 ### Coming Soon
 
 - **Additional Vocabulary Entries**: Language learning and pronunciation examples
-- **AI Integration Guide**: Extended prompt library and workflows for AI-assisted knowledge work
 - **Advanced Techniques**: Cross-domain linking, emergence patterns
 
 ## Five Principles for Human-AI Collaboration
