@@ -3,13 +3,13 @@ views:
     name: Created today
     filters:
       and:
-        - file.ctime.format("YYYY-MM-DD") == this.file.basename
+        - date_created.format("YYYY-MM-DD") == this.file.basename
     order:
       - file.name
   - type: list
     name: Modified today
     filters:
       and:
-        - file.mtime.format("YYYY-MM-DD") == this.file.basename
+        - date_modified.format("YYYY-MM-DD") == this.file.basename
     order:
       - file.name
