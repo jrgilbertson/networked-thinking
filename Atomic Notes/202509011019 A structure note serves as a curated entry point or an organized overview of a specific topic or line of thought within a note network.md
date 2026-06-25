@@ -5,7 +5,7 @@ aliases:
 date_created:
 date_modified:
 tags: []
-title: Title
+title: Structure Note
 ---
 
 # Structure Note
