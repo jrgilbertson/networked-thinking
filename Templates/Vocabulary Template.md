@@ -1,32 +1,30 @@
 ---
 aliases: []
-date_created: 
-date_modified: 
+date_created:
+date_modified:
 tags:
   - vocabulary
-title: Word
+title: "{{Word}}"
 ---
 
-# Word
+# {{Word}}
 
 TARGET DECK: General
 
 START
 
-[Insert note type here]
+{{Note type: "Basic" (question/answer) or "Cloze" (fill-in-the-blank). Anki is optional. If the word isn't worth memorizing, delete TARGET DECK, START, the note type, the Front line, "Back:", and END, and keep the definition, pronunciation, and example as plain paragraphs.}}
 
-Word (type)
+{{Front: the word with its part of speech, e.g. "ebullient (adj)".}}
 
-Back: Definition
+Back: {{Definition in plain language.}}
 
-Pronounced /x-x/.
+{{Pronunciation, e.g. "Pronounced /ɪˈbʊl.i.ənt/." Add a Forvo link if useful.}}
 
-Include Forvo pronunciation.
-
-Example sentence with the word *italiziced*.
+{{Example sentence using the word, with the word *italicized*.}}
 
 END
 
 Sources:
 
-1. x
+1. {{External provenance: dictionary or where you encountered the word.}}

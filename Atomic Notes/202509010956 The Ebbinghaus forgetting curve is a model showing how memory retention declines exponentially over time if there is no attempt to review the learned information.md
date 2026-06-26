@@ -17,7 +17,7 @@ The Ebbinghaus forgetting curve is a model showing how memory retention declines
 
 This process is like a hot cup of coffee cooling down. It loses heat rapidly at first but then approaches room temperature more and more slowly. Similarly, memories fade quickly right after they are formed, but the rate of forgetting lessens over time, allowing a small fraction of the information to stabilize.
 
-For example, after studying a list of new vocabulary words, a person might recall 100% immediately, but only 60% after 20 minutes, 45% after an hour, and just 20% after a month if they do not review the material at all.
+For example, after studying a list of new vocabulary words, a person might recall 100% immediately, but only about 58% after 20 minutes, 44% after an hour, and roughly 21% after a month if they do not review the material at all.
 
 Reference:
 
@@ -26,5 +26,5 @@ Reference:
 
 Sources:
 
-1. Gemini 2.5 last accessed [[2025-09-01]]
-2. Ebbinghaus, H. (1885). Memory: A Contribution to Experimental Psychology
+1. Claude Opus 4.8 last accessed [[2026-06-25]]
+2. Ebbinghaus, H. (1885/1913). Memory: A Contribution to Experimental Psychology

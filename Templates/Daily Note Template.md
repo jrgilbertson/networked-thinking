@@ -4,60 +4,49 @@ date_created:
 date_modified:
 tags:
   - daily-note
-title: Daily Review
+title: Daily Note
 ---
 
-# Daily Review
+# Daily Note
 
 For {{date:YYYY-MM-DD}}.
 
-## Today
+## Pulse
 
-- **Energy (1-10):** (1 = exhausted/depleted, 5 = functioning but not thriving, 10 = fully energized/vital)
-- **Morale (1-10):** (1 = burned out, 5 = steady/neutral outlook, 10 = couldn't be more excited and optimistic)
+{{Optional 1–5 check-in. Use this to notice the state, not to grade the day.}}
 
-What went well? (include evidence and links)
+- Energy:
+- Motivation:
+- Focus:
 
-1. x.
+## Reflections
 
-What was difficult? (name cause, not symptom)
+### What went well?
 
-1. x.
+{{Name the concrete outcomes, meaningful progress, or positive moments that mattered most. Prefer real results and relationship signals over routine system hygiene.}}
 
-What was outside my control? → What did I choose anyway?
+### What was difficult?
 
-1. x → I chose (action, time-bound).
+{{Name the real friction or root cause. Keep it honest and specific; do not turn this into a full recap of the day.}}
 
-One key learning from today:
+### Outside my control
 
-1. x.
+{{Choose the one most impactful thing you could not control today. Use this to practice Stoicism: separate the external fact from your chosen response. Do not list minor annoyances.}}
 
-Gratitude and reflections:
+### Key learning
 
-1. x.
+{{Select one learning to carry forward. Make it a reusable pattern, decision rule, or behavioral correction—not a recap or a list.}}
 
-## Tomorrow
+### Gratitude
 
-Top priority:
+{{Name one specific thing you are grateful for. Keep it grounded and non-generic.}}
 
-1. **[Task]:** Done when [clear yes/no state]
+## Vault activity
 
-Other priorities (optional):
+### Notes Created Today
 
-1. **[Task]:** Done when [clear yes/no state]
+![[DailyNote.base#Created today]]
 
-Main blocker → mitigation:
+### Notes Modified Today
 
-1. x → y
-
-## Notes Created Today
-
-```dataview
-List FROM "" WHERE file.cday = date({{date:YYYY-MM-DD}}) SORT file.ctime asc
-```
-
-## Notes Modified Today
-
-```dataview
-List FROM "" WHERE file.mday = date({{date:YYYY-MM-DD}}) SORT file.mtime asc
-```
+![[DailyNote.base#Modified today]]

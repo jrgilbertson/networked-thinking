@@ -4,24 +4,29 @@ date_created:
 date_modified:
 tags:
   - meeting
-title: Meeting
+title: "{{Title}}"
 ---
 
-# Meeting
+# {{Title}}
 
 ## Attendees
 
-Attendees include:
+{{List attendees with wikilinks where notes exist. Mark yourself as notetaker only when useful.}}
 
-1. [[Your Name]] (notetaker)
+- [[Your Name]]
+
+## Context
+
+{{Optional. Why this meeting happened, what needed to be decided, or what context future-you will need. Leave blank if obvious.}}
 
 ## Notes
 
-1. **Pre-Meeting Agenda and Notes:**
-	1. None
-2. **Meeting Notes:**
-	1. None
-3. **Decisions:**
-	1. None
-4. **Action Items:**
-	1. None
+{{Capture the useful substance of the meeting. Use topic subheadings when helpful. Prefer signal over transcript.}}
+
+## Decisions
+
+{{Record decisions made in the meeting. If a decision needs durable rationale, create/link a Decision note. Leave blank if none.}}
+
+## Next steps
+
+{{Point to routed work only. Link tasks, People-note updates, Decision notes, or project/source notes when they exist. Do not maintain a duplicate task list here. Leave blank if none.}}

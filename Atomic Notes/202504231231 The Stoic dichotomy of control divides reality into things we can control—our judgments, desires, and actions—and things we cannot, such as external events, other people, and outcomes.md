@@ -20,4 +20,4 @@ For example, an athlete controls training effort and attitude but not judges' de
 
 Sources:
 
-1. Gemini 2.5 last accessed [[2025-08-31]]
+1. Claude Opus 4.8 last accessed [[2026-06-25]]

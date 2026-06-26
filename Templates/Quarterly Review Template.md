@@ -11,82 +11,124 @@ title: Quarterly Review
 
 For the quarter of {{date:YYYY-[Q]Q}}.
 
-*The below is Jason's quarterly review template. We recommend modifying for what works best for you. The `Personal Strategy and OKRs` references are a structure note with quarterly OKRs and personal values and goals.*
+## Closing Reflection
 
-*Note: This template references "Personal Strategy and OKRs" as an example structure note. Create your own structure note for goals and quarterly objectives, or adapt these sections to your planning system.*
+{{One-paragraph executive summary of the quarter: what mattered most, what changed, what became clearer, and what next quarter needs.}}
 
-## Last Quarter
+## Quarter in Review
 
-### Strategic Alignment
+### What Changed?
 
-1. **Vision Check-in:** Complete Personal Strategy and OKRs. Note any necessary adjustments made this quarter.
-2. **Career Score:** Update your career quarterly score.
+{{Name the meaningful changes from this quarter. Include external results, internal state, relationships, strategy, health, energy, confidence, constraints, and opportunities. Prefer "the system shifted because…" over a list of events.}}
 
-### Key Metrics
+### Major Wins
 
-All metrics are an average over the period except for Cardio Fitness, which is the last value in the period.
+{{Capture the wins that mattered. Include shipped work, relationship wins, strategic clarity, avoided mistakes, recovered momentum, and invisible progress that changed future options.}}
 
-| Metric                   | Current | Target | vs. Target | Prior Quarter | vs. Prior Quarter |
-| ------------------------ | ------- | ------ | ---------- | ------------- | ----------------- |
-| Deep Work (weekly avg)   |         |        |            |               |                   |
-| Morale (quarterly avg)   |         |        |            |               |                   |
-| Energy (quarterly avg)   |         |        |            |               |                   |
-| HRV                      |         |        |            |               |                   |
-| Resting Heart Rate       |         |        |            |               |                   |
-| Cardio Fitness (VO2 Max) |         |        |            |               |                   |
-| Weight                   |         |        |            |               |                   |
-| Body Fat Percentage      |         |        |            |               |                   |
-| Time Asleep              |         |        |            |               |                   |
-| REM Sleep                |         |        |            |               |                   |
-| Deep Sleep               |         |        |            |               |                   |
+### Meaningful Progress
 
-### Performance Audit
+{{What moved forward in a way that changes next quarter? Include partial progress if it reduced uncertainty, created evidence, clarified a decision, or opened a path.}}
 
-Leverage your weekly summaries and daily notes for a streamlined review.
+### Challenges / Friction
 
-#### External Results
+{{Name what was hard without blame. Look for root causes: wrong priority, unclear strategy, overcommitment, missing input, low energy, avoided conversation, dependency, system friction, or calendar mismatch.}}
 
-1. **Highlights:** What worked well this quarter? What patterns show promise and should be scaled?
-2. **Lowlights:** What didn't work well? What obstacles did you face? What are you consistently avoiding or putting off?
+### Patterns Noticed
 
-#### Internal Patterns
+{{Synthesize repeated signals from all available evidence: notes, tasks, projects, meetings, conversations, calendar history, health data, financial signals, shipped work, and other relevant sources. Prefer "this kept happening because…" over isolated anecdotes.}}
 
-1. **Energy Management:** What sustained your energy this quarter? What drained it? What patterns emerged?
-2. **Morale Trends:** How did your morale trend over the quarter? What events or situations affected your momentum and confidence?
-3. **Decision Quality:** Which major decisions made this quarter are paying off? Which ones aren't? What does this tell you about your decision-making process?
+### Energy / Motivation / Health
 
-#### System Health
+{{Summarize what helped or hurt energy, motivation, health, sleep, focus, and recovery. Use metrics when they clarify the story, but do not turn this section into a spreadsheet.}}
 
-1. **Habits:** Which habits stuck this quarter? Which failed? Why?
-2. **Tools & Processes:** Which tools and workflows helped you? Which created friction or didn't deliver value?
-3. **Review System:** Did daily and weekly reviews happen consistently? If not, what got in the way?
+## Strategic Alignment
 
-#### Opportunities
+### Strategy Check
 
-Based on your reflections above, where are your biggest opportunities for growth and improvement next quarter?
+{{Review your guiding strategy, values, or annual goals (for example, a "Personal Strategy" structure note). What still feels true? What changed? What assumption, priority, or constraint needs to be updated?}}
 
-### Key Decisions This Quarter
+### Objectives / Direction
 
-List the 3-5 most important decisions you made this quarter and their current status/early outcomes:
+{{What were the intended objectives or themes this quarter? What actually got attention? What does the gap reveal?}}
 
-1. **Decision:** [What you decided]
-	1. **Status:** [How it's playing out so far]
-	2. **Learning:** [What you've learned from this decision]
+### Strategic Tradeoffs
 
-## This Quarter
+{{Where did two good things compete? Name what the tradeoff bought, what it cost, and whether the same tradeoff should be made again next quarter.}}
 
-### Quarterly Objectives
+### What Not to Continue
 
-Create your OKRs at Personal Strategy and OKRs.
+{{Name work, habits, obligations, tools, defaults, or commitments that should be stopped, reduced, delegated, archived, or consciously ignored.}}
 
-### Habit Adjustments
+## Decision Review
 
-Based on your performance audit and opportunities identified above, what changes do you need to make to your daily or weekly habits to better support your objectives?
+{{Review the quarter's important decisions. Focus on decision quality and learning, not hindsight theater.}}
 
-1. [Concrete habit adjustment].
+### Decisions That Are Paying Off
+
+{{Which decisions created leverage, clarity, momentum, trust, or useful evidence? What made them good decisions?}}
+
+### Decisions to Revisit
+
+{{Which decisions are not aging well, depend on stale assumptions, or need a reversal trigger? What evidence would justify changing course?}}
+
+### Unmade Decisions
+
+{{What important decisions were avoided, deferred, or hidden inside "keeping options open"? What is the cost of not deciding?}}
+
+## Blind Spot Assessment
+
+{{Use this to identify what the current quarter-level picture may be missing across all available sources. Material blind spots should have evidence, not just anxiety. Empty is fine if nothing material appears.}}
+
+### Commitments
+
+{{Are there promises, recurring obligations, implicit expectations, or loose ends that are not represented in the current plan or trusted systems?}}
+
+### Risk
+
+{{What deadline, dependency, financial/legal/security/health risk, or fragile single point of failure might be under-visible?}}
+
+### People
+
+{{Who needs context, follow-up, appreciation, repair, a decision, clearer expectations, or relationship maintenance?}}
+
+### Execution
+
+{{Where are repeated deferrals, too much WIP, optimistic estimates, unclear definitions of done, or missing review gates showing up?}}
+
+### Opportunity
+
+{{What useful opportunity might be crowded out by urgent work? Look for delegation, automation, reusable skills, compounding work, or high-leverage projects.}}
+
+### Strategic
+
+{{What area may be over- or under-invested relative to current goals? What familiar assumption might be stale?}}
+
+## Feedback Loop
+
+{{If a project, venture, relationship, or learning loop depended on outside feedback this quarter, capture what real people or real behavior taught you. Ask: "If I improved one thing next quarter, what would most increase your willingness to use it or recommend it?" Track evidence, not encouragement.}}
+
+## Next Quarter
+
+### 3–5 Outcomes
+
+{{Choose outcomes, not a task pile. Each outcome should be important enough to protect time, attention, and tradeoffs for.}}
+
+### Operating Principles
+
+{{What principles should guide next quarter's planning? Include constraints, defaults, boundaries, or "if this happens, then…" rules that would reduce decision fatigue.}}
+
+### Habit / Rhythm Adjustments
+
+{{What needs to change in daily, weekly, or monthly rhythms to support next quarter? Keep this practical and small enough to actually run.}}
 
 ### System Improvements
 
-What one change to tools, processes, or workflows would have highest impact this quarter?
+{{What tools, workflows, automations, review loops, or source-of-truth boundaries need improvement? If the improvement is durable, turn it into the appropriate follow-up rather than fully designing it here.}}
 
-1. [Concrete system improvement].
+### Challenge a Default
+
+{{What familiar workflow, assumption, identity, or default path might be constraining a better option next quarter?}}
+
+## Decisions for Next Quarter
+
+{{List only decisions that need your attention now. If a decision is already clear and approved, make or route the change instead of parking it here.}}

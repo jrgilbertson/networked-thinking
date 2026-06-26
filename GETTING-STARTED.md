@@ -64,7 +64,7 @@ Add these only when specific needs arise:
 
 **Reference Notes** - Summaries of external sources in original context. Captures author's ideas before integrating into your thinking through atomic notes. Includes source metadata and key concepts.
 
-**Daily Notes** - Temporal reflection anchoring knowledge to specific dates. Includes Dataview queries showing notes created/modified today. Links events to people to concepts.
+**Daily Notes** - Temporal reflection anchoring knowledge to specific dates. Includes Bases views showing notes created/modified today. Links events to people to concepts.
 
 **People Notes** - Relationship context for recurring collaborators. Documents expertise, interaction history, insights from conversations. Timestamp each interaction for chronological tracking.
 
@@ -74,20 +74,22 @@ Add these only when specific needs arise:
 
 ## Template Inventory
 
-The vault includes twelve templates accessible via Cmd+T:
+The vault includes fourteen templates accessible via Cmd+T:
 
-1. **Atomic Note Template (Default)** - DAE framework structure
-2. **Atomic Note Template (Anki)** - DAE plus spaced repetition syntax
-3. **Daily Note Template** - Temporal reflection with Dataview queries
-4. **Decision Template** - Structured frameworks for significant choices
-5. **General Note Template** - Minimal fallback for uncategorized notes
-6. **Meeting Template** - Attendees, agenda, decisions, action items
-7. **Person Template** - Relationship context and expertise tracking
-8. **Quarterly Review Template** - Long-term goal and habit reflection
-9. **Reference Note Template** - External source insights and metadata
-10. **Structure Note Template** - Topic maps for atomic note navigation
-11. **Vocabulary Template** - Technical term definitions in context
-12. **Weekly Review Template** - Weekly planning and pattern recognition
+1. **Atomic Note Template** - DAE framework (optional Anki block)
+2. **Company Template** - Organization profile and relationship context
+3. **Content Template** - Books, films, and media you consume, with ratings
+4. **Daily Note Template** - Temporal reflection with Bases views
+5. **Decision Template** - Structured frame for significant choices
+6. **General Note Template** - Minimal fallback for uncategorized notes
+7. **Meeting Template** - Attendees, context, notes, decisions, next steps
+8. **Person Template** - Relationship context and expertise tracking
+9. **Quarterly Review Template** - Long-term goal and habit reflection
+10. **Reference Note Template** - External source insights and metadata
+11. **Structure Note Template** - Topic maps for atomic note navigation
+12. **Vocabulary Template** - Technical term definitions in context
+13. **Weekly Review Template** - Weekly planning and pattern recognition
+14. **Writing Draft Template** - Draft a piece from raw material to final
 
 ## Linking Mechanics
 
@@ -155,7 +157,7 @@ Links automatically create backlinks—no need to edit both notes. Check **Outgo
 
 **3. Create today's daily note**
 - Press Cmd+. to create/open daily note
-- Notice Dataview queries automatically show notes created and modified today
+- Notice Bases views automatically show notes created and modified today
 - Add a reflection entry linking to existing atomic notes
 
 **4. Practice linking**
