@@ -11,3 +11,6 @@
 
 # Ignore Obsidian per-machine UI state (churns on every open/close)
 .obsidian/workspace.json
+
+# Ignore Compound Engineering per-machine config
+.compound-engineering/*.local.yaml
