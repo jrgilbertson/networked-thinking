@@ -38,7 +38,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
         with:
-          fetch-depth: 1
+          fetch-depth: 0
           persist-credentials: false
 
       - name: Run Claude Code Review
@@ -53,7 +53,7 @@ jobs:
           # post-session result capture misses the review text. Telling Claude
           # to post inline + summary comments DURING the run bypasses it.
           prompt: |
-            /code-review:code-review ${{ github.repository }}/pull/${{ github.event.pull_request.number }}
+            /code-review:code-review ${{ github.repository }}/pull/${{ github.event.pull_request.number }} --comment
 
             After completing the review, post your findings IMMEDIATELY in this
             session — do not rely on post-session comment capture:
