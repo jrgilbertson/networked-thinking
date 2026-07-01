@@ -50,9 +50,8 @@ jobs:
           plugins: 'code-review@claude-code-plugins'
           prompt: |
             /code-review:code-review ${{ github.repository }}/pull/${{ github.event.pull_request.number }} --comment
-
-          # Allowlist the diff/comment commands the /code-review slash command needs.
+          # Mirror the /code-review plugin declared tools; the plugin owns PR comment posting.
           # --setting-sources user avoids loading PR-controlled project settings/hooks.
           claude_args: |
             --setting-sources user
-            --allowedTools "mcp__github_inline_comment__create_inline_comment,Bash(gh pr comment:*),Bash(gh pr diff:*),Bash(gh pr view:*),Bash(gh api repos/*/pulls/*/comments:*),Bash(gh api repos/*/issues/*/comments:*),Bash(git fetch:*),Bash(git diff:*),Bash(git blame:*)"
+            --allowedTools "mcp__github_inline_comment__create_inline_comment,Bash(gh issue view:*),Bash(gh search:*),Bash(gh issue list:*),Bash(gh pr comment:*),Bash(gh pr diff:*),Bash(gh pr view:*),Bash(gh pr list:*)"
