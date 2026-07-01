@@ -36,7 +36,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
         with:
           fetch-depth: 0
           persist-credentials: false
@@ -48,27 +48,10 @@ jobs:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           plugin_marketplaces: 'https://github.com/anthropics/claude-code.git'
           plugins: 'code-review@claude-code-plugins'
-          # Workaround for anthropics/claude-code-action#1087: the code-review
-          # plugin's final turn is a TodoWrite call, so the action's
-          # post-session result capture misses the review text. Telling Claude
-          # to post inline + summary comments DURING the run bypasses it.
           prompt: |
             /code-review:code-review ${{ github.repository }}/pull/${{ github.event.pull_request.number }} --comment
-
-            After completing the review, post your findings IMMEDIATELY in this
-            session — do not rely on post-session comment capture:
-
-            1. For each actionable inline finding, call
-               mcp__github_inline_comment__create_inline_comment with
-               confirmed: true so it posts at once rather than buffering.
-            2. Always end by posting a single summary comment via
-               `gh pr comment ${{ github.event.pull_request.number }} --body "..."`,
-               including a brief verdict even when no actionable findings exist
-               so reviewers see the run completed.
-          # Allowlist the inline-comment MCP tool + the diff/posting commands the
-          # /code-review slash command needs; without this allowlist those tools
-          # are not loaded into the session. --setting-sources user avoids
-          # loading PR-controlled project settings/hooks during the review.
+          # Mirror the /code-review plugin declared tools; the plugin owns PR comment posting.
+          # --setting-sources user avoids loading PR-controlled project settings/hooks.
           claude_args: |
             --setting-sources user
-            --allowedTools "mcp__github_inline_comment__create_inline_comment,Bash(gh pr comment:*),Bash(gh pr diff:*),Bash(gh pr view:*),Bash(git fetch:*),Bash(git diff:*)"
+            --allowedTools "mcp__github_inline_comment__create_inline_comment,Bash(gh issue view:*),Bash(gh search:*),Bash(gh issue list:*),Bash(gh pr comment:*),Bash(gh pr diff:*),Bash(gh pr view:*),Bash(gh pr list:*)"
