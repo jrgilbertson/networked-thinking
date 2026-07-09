@@ -13,6 +13,7 @@ Start with `README.md` and `GETTING-STARTED.md` when you need product context. U
 - Keep `AGENTS.md` as the single canonical source of project instructions. Do not duplicate these instructions in `CLAUDE.md`; it should remain only the import shim.
 - Preserve Obsidian-compatible Markdown, wikilinks (`[[Note]]`, `[[Note|Display]]`), aliases, frontmatter, and folder names with spaces.
 - Prefer small, targeted edits. Do not reformat whole notes, rewrite unrelated prose, or normalize whitespace across files unless asked.
+- Keep the `README.md` badges as links, not bare images. The license badge links to `LICENSE.md` and the release badge links to the Releases page; both are wrapped as `[![Alt](image-url)](target-url)`. It is easy to drop the outer `[...](target)` when hand-editing the intro. If a README edit changes any line other than the one you were asked to change, restore it before committing.
 - Do not edit vendored Obsidian plugin bundles under `.obsidian/plugins/` unless the task is explicitly about plugin files.
 - When adding media or non-markdown assets, place them under `Attachments/` unless the user gives a more specific location.
 - Use ASCII for new project files unless a note already uses non-ASCII characters for its content.
