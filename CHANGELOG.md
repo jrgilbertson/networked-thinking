@@ -6,7 +6,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
-## [1.1.0] - 2025-11-19
+## [1.1.0] - 2025-11-18
 
 ### Changed
 
@@ -14,7 +14,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Updated documentation for the GitHub template and Releases distribution paths.
 - Adjusted graph view scaling and Obsidian workspace file references.
 
-## [1.0.0] - 2025-11-18
+## [1.0.0] - 2025-11-14
 
 ### Added
 
