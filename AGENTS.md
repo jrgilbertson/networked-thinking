@@ -26,7 +26,7 @@ Start with `README.md` and `GETTING-STARTED.md` when you need product context. U
 - Structure notes are navigation hubs and curated topic maps. Keep them link-rich and organized around relationships, not folder hierarchy.
 - Reference notes preserve source context before ideas are synthesized into atomic notes.
 - Inbox content is raw capture. Move or transform it only when the task explicitly asks for curation.
-- People, Meetings, Projects, Reviews, Places and Things, Vocabulary Notes, and Prompts are workflow folders. Follow the closest matching template when creating new files there.
+- People, Meetings, Projects, Reviews, Places and Things, and Vocabulary Notes are workflow folders. Follow the closest matching template when creating new files there.
 
 ## Verification
 

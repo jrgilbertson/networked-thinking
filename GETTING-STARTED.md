@@ -52,8 +52,6 @@ Add these only when specific needs arise:
 
 **Attachments** - Images, PDFs, audio files, media. Keeps them separate from knowledge content.
 
-**Prompts** - AI prompts for processing notes, writing atomic notes, analyzing connections. Save for reuse and refinement.
-
 **Key principle:** Folders organize workflow (Inbox → processing → reflection), not categories (Marketing/, Philosophy/). Knowledge transcends arbitrary categories.
 
 ## Note Types
