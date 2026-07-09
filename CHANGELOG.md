@@ -38,6 +38,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Title placeholder in the Structure Note template.
 - Ebbinghaus forgetting-curve figures in the spaced-repetition notes.
 - An orphaned note on atomicity, now linked from its structure hub.
+- Stale references to the removed `Prompts/` folder in `AGENTS.md` and `GETTING-STARTED.md`.
 
 ## [1.1.0] - 2025-11-18
 
