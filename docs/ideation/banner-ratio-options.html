@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Networked Thinking banner treatment study</title>
+    <style>
+      @font-face {
+        font-family: "Alegreya";
+        font-style: normal;
+        font-weight: 400 900;
+        font-display: swap;
+        src: url("../../Attachments/fonts/Alegreya-Variable.woff2") format("woff2");
+      }
+
+      @font-face {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 100 900;
+        font-display: swap;
+        src: url("../../Attachments/fonts/Inter-Variable.woff2") format("woff2");
+      }
+
+      :root {
+        color-scheme: light;
+        --ink: #111111;
+        --paper: #ffffff;
+        --surface: #efefeb;
+        --muted: #4d4d48;
+        --cobalt: #2f4fe8;
+        --hairline: #d7d7cf;
+        --display: "Alegreya", Georgia, serif;
+        --body: "Inter", system-ui, sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--surface);
+        color: var(--ink);
+        font-family: var(--body);
+      }
+
+      button {
+        font: inherit;
+      }
+
+      .page {
+        width: min(1180px, calc(100% - 40px));
+        margin: 0 auto;
+        padding: 40px 0 64px;
+      }
+
+      .study-header {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        gap: 24px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid var(--hairline);
+      }
+
+      h1 {
+        max-width: 760px;
+        margin: 0;
+        font-family: var(--display);
+        font-size: clamp(2rem, 5vw, 4rem);
+        font-weight: 800;
+        line-height: 0.95;
+        letter-spacing: -0.035em;
+        text-wrap: balance;
+      }
+
+      .study-meta {
+        max-width: 38ch;
+        margin: 0;
+        color: var(--muted);
+        font-size: 0.875rem;
+        line-height: 1.55;
+        text-wrap: pretty;
+      }
+
+      .variant-picker {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin: 24px 0 18px;
+      }
+
+      .variant-picker button {
+        min-height: 42px;
+        padding: 0 15px;
+        border: 1px solid var(--hairline);
+        border-radius: 4px;
+        background: var(--paper);
+        color: var(--ink);
+        cursor: pointer;
+        font-size: 0.875rem;
+        font-weight: 600;
+      }
+
+      .variant-picker button:hover {
+        border-color: var(--ink);
+      }
+
+      .variant-picker button:focus-visible {
+        outline: 3px solid color-mix(in srgb, var(--cobalt) 42%, transparent);
+        outline-offset: 2px;
+      }
+
+      .variant-picker button[aria-pressed="true"] {
+        border-color: var(--cobalt);
+        background: var(--cobalt);
+        color: var(--paper);
+      }
+
+      .preview-shell {
+        padding: 18px;
+        border: 1px solid var(--hairline);
+        background: var(--paper);
+      }
+
+      .banner {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        aspect-ratio: 3 / 1;
+        background: var(--paper);
+        isolation: isolate;
+      }
+
+      .graph {
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 53%;
+      }
+
+      .banner-copy {
+        position: absolute;
+        background: rgb(255 255 255 / 95%);
+      }
+
+      .banner-copy h2 {
+        margin: 0;
+        font-family: var(--display);
+        font-weight: 800;
+        line-height: 0.94;
+        letter-spacing: -0.035em;
+        text-wrap: balance;
+      }
+
+      .banner-copy p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.42;
+        text-wrap: pretty;
+      }
+
+      .variant-corner .banner-copy {
+        top: 9%;
+        left: 0;
+        width: min(38%, 455px);
+        padding: clamp(12px, 2vw, 24px) clamp(15px, 2.5vw, 30px);
+        border-top: 3px solid var(--cobalt);
+      }
+
+      .variant-corner .banner-copy h2 {
+        font-size: clamp(1.55rem, 3.2vw, 2.75rem);
+      }
+
+      .variant-corner .banner-copy p {
+        max-width: 36ch;
+        margin-top: clamp(5px, 0.8vw, 9px);
+        font-size: clamp(0.62rem, 0.95vw, 0.9rem);
+      }
+
+      .variant-rail .banner-copy {
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: grid;
+        grid-template-columns: minmax(190px, 0.55fr) minmax(0, 1.45fr);
+        gap: clamp(16px, 3vw, 42px);
+        align-items: center;
+        padding: clamp(8px, 1vw, 13px) clamp(18px, 3vw, 38px);
+        border-top: 3px solid var(--cobalt);
+      }
+
+      .variant-rail .banner-copy h2 {
+        font-size: clamp(1.45rem, 2.8vw, 2.55rem);
+      }
+
+      .variant-rail .banner-copy p {
+        max-width: none;
+        font-size: clamp(0.68rem, 1vw, 0.92rem);
+        white-space: nowrap;
+      }
+
+      .banner-keyline {
+        position: absolute;
+        inset: 0;
+        border: 1.5px solid rgb(17 17 17 / 18%);
+        pointer-events: none;
+      }
+
+      .preview-caption {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 16px;
+        margin: 12px 0 0;
+        color: var(--muted);
+        font-size: 0.8125rem;
+        line-height: 1.5;
+      }
+
+      .preview-caption strong {
+        color: var(--ink);
+        font-weight: 600;
+      }
+
+      .recommendation {
+        color: var(--cobalt);
+      }
+
+      .comparison {
+        display: grid;
+        gap: 34px;
+        margin-top: 42px;
+      }
+
+      .comparison-row {
+        display: grid;
+        grid-template-columns: 170px minmax(0, 1fr);
+        gap: 20px;
+        align-items: start;
+      }
+
+      .comparison-label strong,
+      .comparison-label span {
+        display: block;
+      }
+
+      .comparison-label strong {
+        font-family: var(--display);
+        font-size: 1.35rem;
+        line-height: 1;
+      }
+
+      .comparison-label span {
+        margin-top: 6px;
+        color: var(--muted);
+        font-size: 0.75rem;
+        line-height: 1.45;
+      }
+
+      .comparison-banner .banner-copy h2 {
+        font-size: clamp(1rem, 2.6vw, 2.15rem);
+      }
+
+      .comparison-banner .banner-copy p {
+        font-size: clamp(0.48rem, 0.82vw, 0.72rem);
+      }
+
+      @media (max-width: 760px) {
+        .page {
+          width: min(100% - 24px, 1180px);
+          padding-top: 24px;
+        }
+
+        .study-header,
+        .preview-caption {
+          align-items: start;
+          flex-direction: column;
+        }
+
+        .preview-shell {
+          padding: 8px;
+        }
+
+        .variant-corner .banner-copy {
+          width: 48%;
+          padding: 8px 10px;
+        }
+
+        .variant-corner .banner-copy h2 {
+          font-size: clamp(0.95rem, 5.2vw, 1.45rem);
+        }
+
+        .variant-corner .banner-copy p {
+          font-size: clamp(0.42rem, 1.8vw, 0.6rem);
+        }
+
+        .variant-rail .banner-copy {
+          grid-template-columns: 0.58fr 1.42fr;
+          gap: 5px;
+          padding: 5px 7px;
+        }
+
+        .variant-rail .banner-copy h2 {
+          font-size: clamp(0.7rem, 3.7vw, 1.1rem);
+        }
+
+        .variant-rail .banner-copy p {
+          font-size: clamp(0.5rem, 1.8vw, 0.62rem);
+          white-space: normal;
+        }
+
+        .comparison-row {
+          grid-template-columns: 1fr;
+          gap: 9px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <header class="study-header">
+        <h1>3:1 banner treatment study</h1>
+        <p class="study-meta">
+          Two ways to identify the repository without turning the banner into a hero. Both use the
+          same graph crop and established descriptor.
+        </p>
+      </header>
+
+      <nav class="variant-picker" aria-label="Banner treatment">
+        <button type="button" data-variant="corner" aria-pressed="true">Compact label</button>
+        <button type="button" data-variant="rail" aria-pressed="false">Caption rail</button>
+      </nav>
+
+      <section class="preview-shell" aria-label="Selected banner preview">
+        <div class="banner variant-corner" id="selected-banner">
+          <img
+            class="graph"
+            src="../../Attachments/jason-knowledge-graph.png"
+            alt=""
+          />
+          <div class="banner-copy">
+            <h2>Networked Thinking</h2>
+            <p>A practical system for connected notes, clearer thinking, and better work.</p>
+          </div>
+          <div class="banner-keyline"></div>
+        </div>
+        <p class="preview-caption">
+          <strong id="selected-label">Compact label - 1800x600</strong>
+          <span class="recommendation" id="recommendation">Recommended</span>
+        </p>
+      </section>
+
+      <section class="comparison" aria-label="Banner treatment options">
+        <div class="comparison-row">
+          <div class="comparison-label">
+            <strong>Compact label</strong>
+            <span class="recommendation">Recommended</span>
+            <span>Preserves the dense graph field and keeps the branding subordinate.</span>
+          </div>
+          <div class="banner variant-corner comparison-banner">
+            <img class="graph" src="../../Attachments/jason-knowledge-graph.png" alt="" />
+            <div class="banner-copy">
+              <h2>Networked Thinking</h2>
+              <p>A practical system for connected notes, clearer thinking, and better work.</p>
+            </div>
+            <div class="banner-keyline"></div>
+          </div>
+        </div>
+
+        <div class="comparison-row">
+          <div class="comparison-label">
+            <strong>Caption rail</strong>
+            <span>Reads like an editorial figure, with the title and descriptor on one quiet baseline.</span>
+          </div>
+          <div class="banner variant-rail comparison-banner">
+            <img class="graph" src="../../Attachments/jason-knowledge-graph.png" alt="" />
+            <div class="banner-copy">
+              <h2>Networked Thinking</h2>
+              <p>A practical system for connected notes, clearer thinking, and better work.</p>
+            </div>
+            <div class="banner-keyline"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const banner = document.querySelector("#selected-banner");
+      const label = document.querySelector("#selected-label");
+      const recommendation = document.querySelector("#recommendation");
+      const buttons = document.querySelectorAll("[data-variant]");
+      let activeButton = document.querySelector('[data-variant][aria-pressed="true"]');
+
+      buttons.forEach((button) => {
+        button.addEventListener("click", () => {
+          if (button === activeButton) return;
+
+          const variant = button.dataset.variant;
+          activeButton.setAttribute("aria-pressed", "false");
+          button.setAttribute("aria-pressed", "true");
+          activeButton = button;
+          banner.className = `banner variant-${variant}`;
+          label.textContent = `${button.textContent} - 1800x600`;
+          recommendation.hidden = variant !== "corner";
+        });
+      });
+    </script>
+  </body>
+</html>
