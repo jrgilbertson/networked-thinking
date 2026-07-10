@@ -28,7 +28,7 @@ slug: docs-ideation-banner-ratio-options-html
 
 **LLM assessment:** Pass, with one familiar-template caveat. The authentic graph, Alegreya, and restrained cobalt identity prevent the banner from reading as generic AI/SaaS imagery. The conventional white title plate with a colored top rule is the only templated move, and its current footprint makes the graph feel more like a backdrop than the subject.
 
-**Deterministic scan:** One warning at `docs/ideation/banner-ratio-options.html:10`: `overused-font` for Inter. This is a low-priority false positive for the banner because Inter is established companion-site body typography and the graph plus Alegreya carry the identity.
+**Deterministic scan:** One warning at `docs/ideation/banner-ratio-options.html:16-21`: `overused-font` for Inter. This is a low-priority false positive for the banner because Inter is established companion-site body typography and the graph plus Alegreya carry the identity.
 
 **Visual overlays:** No reliable overlay is available. The browser runtime reported no available browser, so inspection fell back to source HTML/CSS and the graph asset.
 
@@ -45,15 +45,19 @@ The banner is credible, editorial, and grounded in a real system. Its biggest op
 ## Priority Issues
 
 ### [P1] The descriptor will not survive narrow README rendering
+
 Embedded raster text scales with the image, so the descriptor becomes microtype on phone-width GitHub layouts. Test at 320-360 CSS pixels; either shorten and enlarge it or move the explanation into live README text below the image. **Suggested command:** `$impeccable adapt`.
 
 ### [P1] The 3:1 crop makes the real graph read partly as decorative texture
+
 The shallow center crop discards much of the source topology, weakening the promise to show the system working. Art-direct a dedicated band that preserves several hubs and the blue/green relationship instead of relying on generic `object-fit: cover`. **Suggested command:** `$impeccable layout`.
 
 ### [P2] The title plate competes with the stated subject
+
 The plate spans about 42% of the canvas and obscures a meaningful part of the graph. Reduce its width or vertical footprint and move it toward lower-value whitespace while preserving an opaque contrast field. **Suggested command:** `$impeccable distill`.
 
 ### [P2] The descriptor is not repository-specific
+
 "Connected notes, clearer thinking, and better work" could describe many PKM tools. Test a concrete line such as "A working Obsidian vault for connected notes and clearer thinking." **Suggested command:** `$impeccable clarify`.
 
 ## Persona Red Flags
