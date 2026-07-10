@@ -8,6 +8,8 @@ This repository is an Obsidian vault template for the Networked Thinking methodo
 
 Start with `README.md` and `GETTING-STARTED.md` when you need product context. Use the existing notes and files under `Templates/` as the source of truth for local note structure.
 
+`docs/solutions/` contains durable project learnings, organized by category with searchable YAML frontmatter.
+
 ## Editing Rules
 
 - Keep `AGENTS.md` as the single canonical source of project instructions. Do not duplicate these instructions in `CLAUDE.md`; it should remain only the import shim.
