@@ -8,7 +8,7 @@ title: "{{Title}}"
 
 # {{Title}}
 
-{{Title and filename are the full one-sentence Definition (e.g. "Net revenue retention (NRR) is the percentage of recurring revenue retained…"). Put the short concept name and any acronym in aliases.}}
+{{Title is the short concept name (2–5 words) used in both the YAML title and H1. Name the file with the timestamp followed by the Definition's first sentence without its final period (e.g. "202507151230 Net revenue retention (NRR) is the percentage of recurring revenue retained.md"). Put useful alternative names and acronyms in aliases.}}
 
 TARGET DECK: General
 
