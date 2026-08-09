@@ -9,7 +9,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ### Changed
 
 - Updated the README banner to the shared Networked Thinking visual system and
-  current tagline.
+  current tagline, removing proof marks and the border so the title and
+  knowledge graph remain prominent.
 
 ## [1.2.0] - 2026-07-09
 
