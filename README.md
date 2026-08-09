@@ -3,7 +3,7 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE.md)
 [![Latest release](https://img.shields.io/github/v/release/jrgilbertson/networked-thinking)](https://github.com/jrgilbertson/networked-thinking/releases)
 
-![Networked Thinking banner showing a dense crop of Jason's personal knowledge graph](Attachments/networked-thinking-readme-banner.webp)
+![Networked Thinking Companion Vault banner showing a connected knowledge graph](Attachments/networked-thinking-readme-banner.webp)
 
 Networked Thinking is a book and practical system for turning saved articles, highlights, and notes into usable context for writing, decisions, and work. This vault is the system's working implementation to accompany the book.
 
