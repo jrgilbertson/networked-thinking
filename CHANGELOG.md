@@ -38,6 +38,14 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
   current tagline, removing proof marks and the border so the title and
   knowledge graph remain prominent.
 
+### Removed
+
+- The `docs/` tree, holding a banner ratio study and a design-pattern writeup.
+  Someone who downloads this vault opens it in Obsidian, where agent working
+  folders are just clutter. `AGENTS.md` now rules them out and `.gitignore`
+  keeps them from returning; the same folders stay in the skills and site
+  repositories, which are not vaults.
+
 ## [1.2.0] - 2026-07-09
 
 ### Added

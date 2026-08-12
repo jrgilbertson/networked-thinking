@@ -8,7 +8,7 @@ This repository is an Obsidian vault template for the Networked Thinking methodo
 
 Start with `README.md` and `GETTING-STARTED.md` when you need product context. Use the existing notes and files under `Templates/` as the source of truth for local note structure.
 
-`docs/solutions/` contains durable project learnings, organized by category with searchable YAML frontmatter.
+This repository ships as a clean Obsidian vault, so it keeps no `docs/` tree. Do not create `docs/solutions/`, `docs/ideation/`, `docs/plans/`, or any sibling under it, and delete one if a tool writes it. Anything a downloader opens in Obsidian and would not recognize as part of the vault does not belong here. Durable learnings, ideation studies, and plans for this project live in `networked-thinking-skills` or `networked-thinking-site`, which do keep those folders.
 
 ## Editing Rules
 
