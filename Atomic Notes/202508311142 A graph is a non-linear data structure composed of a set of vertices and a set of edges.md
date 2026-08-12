@@ -12,7 +12,7 @@ title: Graph Data Structure
 
 # Graph Data Structure
 
-A graph is a non-linear data structure composed of a set of vertices and a set of edges. The edges represent connections between the vertices, which are also called nodes. It is used to model relationships between objects, where vertices represent the objects and edges represent the relationships connecting them.
+A graph is a non-linear data structure composed of a set of vertices and a set of edges. Vertices, also called nodes, represent objects; edges represent the relationships connecting them.
 
 Think of a graph as a city map. Each intersection or landmark is a vertex, and the streets connecting them are the edges. The map doesn't just list the locations; it shows exactly how they are all interconnected, allowing you to find various paths between them.
 

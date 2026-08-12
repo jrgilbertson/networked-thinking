@@ -17,11 +17,19 @@ import sys
 DEFAULT_BUDGET = 171
 
 
-def tracked_paths():
+def vault_paths():
+    """Every path git would ship: tracked files plus new files not yet added.
+
+    Untracked files count because a note that has just been written, and not
+    yet staged, is exactly the case this check exists to catch. Ignored files
+    are excluded, so scratch files do not trip it.
+    """
     out = subprocess.run(
-        ["git", "ls-files", "-z"], check=True, capture_output=True
+        ["git", "ls-files", "-z", "--cached", "--others", "--exclude-standard"],
+        check=True,
+        capture_output=True,
     ).stdout
-    return [p for p in out.decode("utf-8").split("\0") if p]
+    return sorted({p for p in out.decode("utf-8").split("\0") if p})
 
 
 def main():
@@ -30,9 +38,9 @@ def main():
     parser.add_argument("--quiet", action="store_true", help="print nothing on success")
     args = parser.parse_args()
 
-    paths = tracked_paths()
+    paths = vault_paths()
     if not paths:
-        print("No tracked files found; is this a git repository?", file=sys.stderr)
+        print("No files found; is this a git repository?", file=sys.stderr)
         return 1
 
     over = sorted(
@@ -57,7 +65,7 @@ def main():
     if not args.quiet:
         longest = max(len(p.encode("utf-8")) for p in paths)
         print(
-            f"Path length OK: {len(paths)} tracked paths, "
+            f"Path length OK: {len(paths)} paths, "
             f"longest {longest} bytes, budget {args.budget}."
         )
     return 0

@@ -9,7 +9,7 @@ title: Abstraction
 
 # Abstraction
 
-Abstraction is the process of identifying and isolating the essential features of a concept or object. It deliberately ignores irrelevant details, reducing complexity by focusing only on what matters for a specific purpose and creating simplified models or representations.
+Abstraction is the process of identifying and isolating the essential features of a concept or object. It deliberately ignores irrelevant details. Focusing only on what matters for a specific purpose reduces complexity and produces simplified models.
 
 Think of abstraction like using a subway map. The map doesn't show every building, street, or landmark—it strips away all that visual clutter to show only the subway lines and stations. This simplified version ignores geographic accuracy and architectural details because those aren't essential for navigating the transit system.
 

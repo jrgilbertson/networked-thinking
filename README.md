@@ -5,7 +5,7 @@
 
 ![Networked Thinking Companion Vault banner showing a connected knowledge graph with the tagline The missing manual for knowledge work in the AI age](Attachments/networked-thinking-readme-banner.webp)
 
-Networked Thinking is a book and practical system for turning saved articles, highlights, and notes into usable context for writing, decisions, and work. This vault is the system's working implementation to accompany the book.
+Networked Thinking is a book and practical system for turning saved articles, highlights, and notes into a living knowledge system for writing, decisions, and work. This vault is the system's working implementation to accompany the book.
 
 ## Purpose
 
@@ -17,7 +17,7 @@ This is one way to run the methodology, not the only way. Adapt it to how you al
 
 ## Quickstart
 
-Install [Obsidian](https://obsidian.md/), the free local-first app this vault is built for. Then either click "Use this template" on this repository to create your own version-controlled copy, or download the latest release ZIP from the [Releases page](https://github.com/jrgilbertson/networked-thinking/releases) for a plain folder. On Windows, extract that ZIP somewhere short such as `C:\vault` rather than the Desktop, because Windows silently skips files whose extracted path exceeds 260 characters. Open that folder as a vault in Obsidian (File → Open Vault), then read [GETTING-STARTED.md](GETTING-STARTED.md) for the full folder map, template inventory, and linking mechanics.
+Install [Obsidian](https://obsidian.md/), the free local-first app this vault is built for. Then either click "Use this template" on this repository to create your own version-controlled copy, or download the latest release ZIP from the [Releases page](https://github.com/jrgilbertson/networked-thinking/releases) for a plain folder. On Windows, extract that ZIP somewhere short such as `C:\vault` rather than the Desktop, because Windows cannot create a file whose full path exceeds 260 characters, and Explorer skips the ones that do. Open that folder as a vault in Obsidian (File → Open Vault), then read [GETTING-STARTED.md](GETTING-STARTED.md) for the full folder map, template inventory, and linking mechanics.
 
 ## Structure
 

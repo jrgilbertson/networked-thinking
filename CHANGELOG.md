@@ -15,11 +15,11 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
   bytes, and GitHub prepends `networked-thinking-<version>/` to every path, so
   one 238-byte note pushed the archive to 263 bytes. Both the Releases ZIP and
   the repository's "Download ZIP" button failed, in v1.0.0, v1.1.0, and v1.2.0.
-  Eight Definitions were split into two sentences, keeping every word and the
+  Eight Definitions were split into two sentences, keeping the meaning and the
   filename-matches-Definition convention, which brought the longest vault path
   from 238 bytes to 169.
 - Extraction and `git clone` on Windows, which previously skipped notes whose
-  extracted path passed the 260-character limit and left the vault with broken
+  extracted path exceeded the 260-character limit and left the vault with broken
   wikilinks.
 - A stale example wikilink in `GETTING-STARTED.md` that pointed at a truncated
   DAE framework filename which no longer existed.
