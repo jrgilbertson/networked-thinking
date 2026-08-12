@@ -10,7 +10,7 @@ title: Atomic Note
 
 # Atomic Note
 
-An atomic note is a self-contained unit of knowledge that captures a single, complete idea. The [[202508311127 The principle of atomicity is the practice of breaking information into small, self-contained units, with each unit focused on a single, complete idea|principle of atomicity]] requires that each note is understandable on its own and focuses on one concept, making it a [[202508311132 Modularity is a software design principle that involves dividing a program into separate, independent modules, where each module is responsible for a specific piece of the program's functionality|modular]] building block for more complex knowledge structures.
+An atomic note is a self-contained unit of knowledge that captures a single, complete idea. The [[202508311127 The principle of atomicity is the practice of breaking information into small, self-contained units|principle of atomicity]] requires that each note is understandable on its own and focuses on one concept, making it a [[202508311132 Modularity is a software design principle that involves dividing a program into separate, independent modules|modular]] building block for more complex knowledge structures.
 
 Think of atomic notes as LEGO bricks. Each brick is a simple, independent unit, but you can combine them in countless ways to build intricate and robust models. A single brick does not represent the whole castle, but it is a fundamental, reusable component of it.
 
@@ -18,7 +18,7 @@ For example, instead of a long note titled "Photosynthesis," you would create se
 
 Reference:
 
-- Related concepts: [[202508311127 The principle of atomicity is the practice of breaking information into small, self-contained units, with each unit focused on a single, complete idea|Principle of Atomicity]] and [[202509011003 The Zettelkasten method is a knowledge management system that organizes information into a network of interconnected, atomic notes|Zettelkasten]].
+- Related concepts: [[202508311127 The principle of atomicity is the practice of breaking information into small, self-contained units|Principle of Atomicity]] and [[202509011003 The Zettelkasten method is a knowledge management system that organizes information into a network of interconnected, atomic notes|Zettelkasten]].
 
 Sources:
 

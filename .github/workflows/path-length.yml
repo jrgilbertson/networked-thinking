@@ -1,0 +1,44 @@
+name: Path length
+
+# Windows File Explorer refuses to open a ZIP archive containing any entry of
+# 260 bytes or more, and GitHub prepends "networked-thinking-<version>/" to
+# every path in the release and branch archives. Windows also caps an extracted
+# path at 260 characters. A 171-byte budget keeps the vault openable and
+# extractable on Windows even for a long tag such as v10.10.10.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  path-length:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+      - name: Check tracked paths against the 171-byte budget
+        run: |
+          git ls-files -z | python3 -c '
+          import sys
+          BUDGET = 171
+          paths = [p for p in sys.stdin.buffer.read().decode("utf-8").split("\0") if p]
+          over = sorted(((len(p.encode("utf-8")), p) for p in paths), reverse=True)
+          over = [(n, p) for n, p in over if n > BUDGET]
+          if over:
+              print(f"{len(over)} path(s) exceed the {BUDGET}-byte budget:\n")
+              for n, p in over:
+                  print(f"  {n:4d} bytes ({n - BUDGET:+d})  {p}")
+              print(
+                  "\nWindows cannot open a ZIP with an entry of 260+ bytes, and GitHub"
+                  "\nadds a ~28-byte prefix to every path in the archive."
+                  "\nShorten the filename. For an atomic note, split the Definition's"
+                  "\nfirst sentence in two rather than dropping words, so the filename"
+                  "\nstill matches the sentence exactly."
+              )
+              sys.exit(1)
+          longest = max((len(p.encode("utf-8")) for p in paths), default=0)
+          print(f"OK - {len(paths)} paths, longest {longest} bytes, budget {BUDGET}.")
+          '

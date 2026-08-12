@@ -11,7 +11,7 @@ title: Modularity
 
 # Modularity
 
-Modularity is a software design principle that involves dividing a program into separate, independent modules, where each module is responsible for a specific piece of the program's functionality. This approach makes the overall system easier to understand, develop, test, and maintain by breaking down complexity into manageable parts.
+Modularity is a software design principle that involves dividing a program into separate, independent modules. Each module is responsible for a specific piece of the program's functionality. This approach makes the overall system easier to understand, develop, test, and maintain by breaking down complexity into manageable parts.
 
 Think of a car's construction. A car is not built as a single, monolithic piece but is assembled from distinct modules like the engine, the transmission, the braking system, and the electrical system. Each module can be designed, built, and tested independently before being integrated into the final product.
 
@@ -19,7 +19,7 @@ For example, a large e-commerce website is built modularly. One module might han
 
 Reference:
 
-- Related concepts: [[202511181119 Abstraction is the process of identifying and isolating the essential features of a concept or object while deliberately ignoring irrelevant details|Abstraction]] and [[202508311142 A graph is a non-linear data structure composed of a set of vertices (or nodes) and a set of edges that represent connections between these vertices|Graph Data Structure]].
+- Related concepts: [[202511181119 Abstraction is the process of identifying and isolating the essential features of a concept or object|Abstraction]] and [[202508311142 A graph is a non-linear data structure composed of a set of vertices and a set of edges|Graph Data Structure]].
 
 Sources:
 

@@ -13,7 +13,7 @@ title: Ebbinghaus Forgetting Curve
 
 # Ebbinghaus Forgetting Curve
 
-The Ebbinghaus forgetting curve is a model showing how memory retention declines exponentially over time if there is no attempt to review the learned information. The curve demonstrates a sharp initial drop in recall immediately after learning, followed by a much slower rate of decline in the subsequent days and weeks.
+The Ebbinghaus forgetting curve is a model showing how memory retention declines exponentially over time. Retention drops unless the learned information is reviewed. The curve demonstrates a sharp initial drop in recall immediately after learning, followed by a much slower rate of decline in the subsequent days and weeks.
 
 This process is like a hot cup of coffee cooling down. It loses heat rapidly at first but then approaches room temperature more and more slowly. Similarly, memories fade quickly right after they are formed, but the rate of forgetting lessens over time, allowing a small fraction of the information to stabilize.
 

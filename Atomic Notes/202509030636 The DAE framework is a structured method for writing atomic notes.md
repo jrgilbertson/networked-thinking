@@ -10,7 +10,7 @@ title: DAE Framework
 
 # DAE Framework
 
-The DAE framework is a structured method for writing [[202508311058 An atomic note is a self-contained unit of knowledge that captures a single, complete idea|atomic notes]] that ensures clarity and retention by organizing each note into three parts—a concise Definition, a relatable Analogy, and a concrete Example. This structure forces a deep understanding of a single concept before moving on to the next.
+The DAE framework is a structured method for writing [[202508311058 An atomic note is a self-contained unit of knowledge that captures a single, complete idea|atomic notes]]. It ensures clarity and retention by organizing each note into three parts—a concise Definition, a relatable Analogy, and a concrete Example. This structure forces a deep understanding of a single concept before moving on to the next.
 
 The DAE framework is like a three-legged stool for knowledge. The Definition is the seat—the core idea you're supporting. The Analogy and Example are two of the legs, providing stability and grounding the abstract concept in memorable and practical terms, making it sturdy enough to build upon.
 

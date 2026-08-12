@@ -12,7 +12,7 @@ title: Dichotomy of Control
 
 # Dichotomy of Control
 
-The Stoic dichotomy of control divides reality into things we can control—our judgments, desires, and actions—and things we cannot, such as external events, other people, and outcomes. Peace comes from focusing only on the first category.
+The Stoic dichotomy of control divides reality into things we can control and things we cannot. We control our judgments, desires, and actions; we do not control external events, other people, or outcomes. Peace comes from focusing only on the first category.
 
 It is like a gardener who waters and prunes plants but accepts sunshine and rain as givens; care is within reach, weather is not.
 

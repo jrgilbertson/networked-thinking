@@ -6,6 +6,32 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [1.2.1] - 2026-08-12
+
+### Fixed
+
+- Atomic note filenames that made every released ZIP unopenable on Windows.
+  Windows File Explorer rejects an entire archive when any entry reaches 260
+  bytes, and GitHub prepends `networked-thinking-<version>/` to every path, so
+  one 238-byte note pushed the archive to 263 bytes. Both the Releases ZIP and
+  the repository's "Download ZIP" button failed, in v1.0.0, v1.1.0, and v1.2.0.
+  Eight Definitions were split into two sentences, keeping every word and the
+  filename-matches-Definition convention, which brought the longest vault path
+  from 238 bytes to 169.
+- Extraction and `git clone` on Windows, which previously skipped notes whose
+  extracted path passed the 260-character limit and left the vault with broken
+  wikilinks.
+- A stale example wikilink in `GETTING-STARTED.md` that pointed at a truncated
+  DAE framework filename which no longer existed.
+
+### Added
+
+- `.github/workflows/path-length.yml`, failing any change that pushes a vault
+  path past 171 UTF-8 bytes.
+- A path-budget rule in `AGENTS.md` and `Templates/Atomic Note Template.md`,
+  with guidance to split an over-long Definition rather than cut words.
+- Windows extraction guidance in the README quickstart.
+
 ### Changed
 
 - Updated the README banner to the shared Networked Thinking visual system and
@@ -74,7 +100,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Removed unnecessary YAML metadata from the README.
 - Updated vault documentation, templates, and structure for the book launch.
 
-[Unreleased]: https://github.com/jrgilbertson/networked-thinking/compare/v1.2.0...HEAD
+[Unreleased]: https://github.com/jrgilbertson/networked-thinking/compare/v1.2.1...HEAD
+[1.2.1]: https://github.com/jrgilbertson/networked-thinking/compare/v1.2.0...v1.2.1
 [1.2.0]: https://github.com/jrgilbertson/networked-thinking/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/jrgilbertson/networked-thinking/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/jrgilbertson/networked-thinking/releases/tag/v1.0.0

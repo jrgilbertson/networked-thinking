@@ -23,6 +23,7 @@ Start with `README.md` and `GETTING-STARTED.md` when you need product context. U
 ## Vault Conventions
 
 - Atomic notes live in `Atomic Notes/`, use `YYYYMMDDHHMM Full sentence describing core insight.md`, and should capture one self-contained idea.
+- Keep every vault path at or under 171 UTF-8 bytes, checked by `.github/workflows/path-length.yml`. Windows File Explorer refuses to open a ZIP containing any entry of 260 bytes or more, and GitHub prepends `networked-thinking-<version>/` to every path in the release and branch archives. When a Definition's first sentence would breach the budget, split it into two sentences rather than dropping words, so the filename still matches the sentence exactly.
 - Atomic notes should follow the DAE pattern used by the templates and examples: Definition, Analogy, and Example.
 - Every atomic note should be discoverable from at least one structure note. When adding or materially changing an atomic note, update the relevant file under `Structure Notes/` or create a structure-note link if needed.
 - Structure notes are navigation hubs and curated topic maps. Keep them link-rich and organized around relationships, not folder hierarchy.

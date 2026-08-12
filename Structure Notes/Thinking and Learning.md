@@ -13,13 +13,13 @@ A map of the cognitive science behind the method—how knowledge is managed, how
 ## Knowledge Management
 
 1. [[202509011003 The Zettelkasten method is a knowledge management system that organizes information into a network of interconnected, atomic notes]]
-2. [[202511181121 Pattern recognition is the cognitive ability to identify recurring structures, regularities, or relationships across different instances of data or experiences]]
+2. [[202511181121 Pattern recognition is the cognitive ability to identify recurring structures, regularities, or relationships]]
 
 ## Philosophy
 
-1. [[202504231231 The Stoic dichotomy of control divides reality into things we can control—our judgments, desires, and actions—and things we cannot, such as external events, other people, and outcomes]]
+1. [[202504231231 The Stoic dichotomy of control divides reality into things we can control and things we cannot]]
 
 ## Spaced Repetition
 
 1. [[202509010952 Spaced repetition is a learning technique that involves reviewing information at increasing intervals to improve long-term retention]]
-2. [[202509010956 The Ebbinghaus forgetting curve is a model showing how memory retention declines exponentially over time if there is no attempt to review the learned information]]
+2. [[202509010956 The Ebbinghaus forgetting curve is a model showing how memory retention declines exponentially over time]]
