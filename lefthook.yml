@@ -1,0 +1,6 @@
+pre-commit:
+  commands:
+    path-length:
+      run: python3 .github/scripts/check_path_length.py --quiet
+    whitespace:
+      run: git diff --cached --check

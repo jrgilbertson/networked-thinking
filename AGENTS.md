@@ -23,7 +23,7 @@ Start with `README.md` and `GETTING-STARTED.md` when you need product context. U
 ## Vault Conventions
 
 - Atomic notes live in `Atomic Notes/`, use `YYYYMMDDHHMM Full sentence describing core insight.md`, and should capture one self-contained idea.
-- Keep every vault path at or under 171 UTF-8 bytes, checked by `.github/workflows/path-length.yml`. Windows File Explorer refuses to open a ZIP containing any entry of 260 bytes or more, and GitHub prepends `networked-thinking-<version>/` to every path in the release and branch archives. When a Definition's first sentence would breach the budget, split it into two sentences rather than dropping words, so the filename still matches the sentence exactly.
+- Keep every vault path at or under 171 UTF-8 bytes, checked by `.github/scripts/check_path_length.py` on every commit through lefthook, and again in CI. Windows File Explorer refuses to open a ZIP containing any entry of 260 bytes or more, and GitHub prepends `networked-thinking-<version>/` to every path in the release and branch archives. When a Definition's first sentence would breach the budget, split it into two sentences rather than dropping words, so the filename still matches the sentence exactly.
 - Atomic notes should follow the DAE pattern used by the templates and examples: Definition, Analogy, and Example.
 - Every atomic note should be discoverable from at least one structure note. When adding or materially changing an atomic note, update the relevant file under `Structure Notes/` or create a structure-note link if needed.
 - Structure notes are navigation hubs and curated topic maps. Keep them link-rich and organized around relationships, not folder hierarchy.
@@ -33,8 +33,9 @@ Start with `README.md` and `GETTING-STARTED.md` when you need product context. U
 
 ## Verification
 
-There is no application build or test suite for normal content edits. Verify by:
+There is no application build or test suite for normal content edits. Run `lefthook install` once so the pre-commit checks in `lefthook.yml` run locally; CI repeats them for contributors who have not. Verify by:
 
+- Running `python3 .github/scripts/check_path_length.py` when adding or renaming notes.
 - Running targeted `rg` searches for changed terminology, links, or old conventions.
 - Checking `git diff --check` for whitespace errors.
 - Reviewing changed Markdown for broken wikilinks, malformed frontmatter, and accidental duplication.
