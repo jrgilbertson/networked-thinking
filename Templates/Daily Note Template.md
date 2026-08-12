@@ -13,7 +13,7 @@ For {{date:YYYY-MM-DD}}.
 
 ## Pulse
 
-{{Optional 1–5 check-in. Use this to notice the state, not to grade the day.}}
+{{Optional 1-5 check-in. Use this to notice the state, not to grade the day.}}
 
 - Energy:
 - Motivation:

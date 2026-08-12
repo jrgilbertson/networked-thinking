@@ -54,7 +54,7 @@ Add these only when specific needs arise:
 
 **Bases** - Saved `.base` view definitions that templates embed, such as the daily note's created-today and modified-today lists.
 
-**Key principle:** Folders organize workflow (Inbox → processing → reflection), not categories (Marketing/, Philosophy/). Knowledge transcends arbitrary categories.
+**Key principle:** Folders organize workflow (Inbox > processing > reflection), not categories (Marketing/, Philosophy/). Knowledge transcends arbitrary categories.
 
 ## Note Types
 

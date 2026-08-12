@@ -8,7 +8,7 @@ title: "{{Title}}"
 
 # {{Title}}
 
-{{Title is the short concept name (2–5 words) used in both the YAML title and H1. Name the file with the timestamp followed by the Definition's first sentence without its final period (e.g. "202507151230 Net revenue retention (NRR) is the percentage of recurring revenue retained.md"). Keep the whole path, `Atomic Notes/` included, at or under 171 bytes so the vault survives a Windows ZIP download; if the first sentence runs long, split it into two sentences instead of cutting words. Put useful alternative names and acronyms in aliases.}}
+{{Title is the short concept name (2-5 words) used in both the YAML title and H1. Name the file with the timestamp followed by the Definition's first sentence without its final period (e.g. "202507151230 Net revenue retention (NRR) is the percentage of recurring revenue retained.md"). Keep the whole path, `Atomic Notes/` included, at or under 171 bytes so the vault survives a Windows ZIP download; if the first sentence runs long, split it into two sentences instead of cutting words. Put useful alternative names and acronyms in aliases.}}
 
 TARGET DECK: General
 
@@ -18,7 +18,7 @@ START
 
 {{Front: the question that tests the concept, e.g. "What is net revenue retention (NRR)?"}}
 
-Back: {{Definition (10–50 words): one clear sentence. Introduce any acronym on first use as "full term (ACRONYM)". Link shared concepts like [[...|percentage]] instead of redefining them.}}
+Back: {{Definition (10-50 words): one clear sentence. Introduce any acronym on first use as "full term (ACRONYM)". Link shared concepts like [[...|percentage]] instead of redefining them.}}
 
 {{Analogy: "<concept> is like <familiar referent>", then explain the shared structure in plain prose.}}
 

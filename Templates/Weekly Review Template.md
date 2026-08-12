@@ -23,7 +23,7 @@ For the week of {{date:YYYY-MM-DD}}.
 
 ### Learning / Patterns
 
-{{What did the week teach you? What changed your model of your work, yourself, relationships, health, systems, or priorities? Prefer "this keeps happening because…" over isolated anecdotes.}}
+{{What did the week teach you? What changed your model of your work, yourself, relationships, health, systems, or priorities? Prefer "this keeps happening because..." over isolated anecdotes.}}
 
 ### Friction / Capacity
 
@@ -41,7 +41,7 @@ For the week of {{date:YYYY-MM-DD}}.
 
 ## Look Ahead
 
-### 3–5 Outcomes
+### 3-5 Outcomes
 
 {{Choose outcomes, not a task pile. Each should be important enough to protect time for.}}
 
@@ -55,4 +55,4 @@ For the week of {{date:YYYY-MM-DD}}.
 
 ## Blind Spot Check
 
-{{Top 1–3 material blind spots only. Force the sharp versions: what opportunity am I missing, what should I stop doing, and where am I lying to myself? Each answer should include evidence and a next action. Empty is acceptable if nothing material appears.}}
+{{Top 1-3 material blind spots only. Force the sharp versions: what opportunity am I missing, what should I stop doing, and where am I lying to myself? Each answer should include evidence and a next action. Empty is acceptable if nothing material appears.}}

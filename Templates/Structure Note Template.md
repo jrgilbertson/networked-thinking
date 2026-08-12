@@ -12,7 +12,7 @@ title: "{{Title}}"
 
 ## Start Here
 
-{{Optional: the best 1–3 entry points for returning to this area. If everything is an entry point, nothing is.}}
+{{Optional: the best 1-3 entry points for returning to this area. If everything is an entry point, nothing is.}}
 
 ## Open Questions
 
@@ -24,7 +24,7 @@ title: "{{Title}}"
 
 ## Misc / To Sort
 
-{{Temporary landing zone for links, half-formed thoughts, or notes whose home is unclear. Review regularly. If this reaches 5–7 items, name the emerging section or consider splitting the map.}}
+{{Temporary landing zone for links, half-formed thoughts, or notes whose home is unclear. Review regularly. If this reaches 5-7 items, name the emerging section or consider splitting the map.}}
 
 ## {{Subtopic / Thread}}
 

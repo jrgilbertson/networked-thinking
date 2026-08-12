@@ -20,7 +20,7 @@ year:
 
 ## Summary
 
-{{Summary: 1–3 spoiler-light sentences covering the premise, setup, and core appeal. Prefer stable facts over opinions.}}
+{{Summary: 1-3 spoiler-light sentences covering the premise, setup, and core appeal. Prefer stable facts over opinions.}}
 
 ## Recommendation rationale
 

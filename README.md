@@ -17,7 +17,7 @@ This is one way to run the methodology, not the only way. Adapt it to how you al
 
 ## Quickstart
 
-Install [Obsidian](https://obsidian.md/), the free local-first app this vault is built for. Then either click "Use this template" on this repository to create your own version-controlled copy, or download the latest release ZIP from the [Releases page](https://github.com/jrgilbertson/networked-thinking/releases) for a plain folder. On Windows, extract that ZIP somewhere short such as `C:\vault` rather than the Desktop, because Windows cannot create a file whose full path exceeds 260 characters, and Explorer skips the ones that do. Open that folder as a vault in Obsidian (File → Open Vault), then read [GETTING-STARTED.md](GETTING-STARTED.md) for the full folder map, template inventory, and linking mechanics.
+Install [Obsidian](https://obsidian.md/), the free local-first app this vault is built for. Then either click "Use this template" on this repository to create your own version-controlled copy, or download the latest release ZIP from the [Releases page](https://github.com/jrgilbertson/networked-thinking/releases) for a plain folder. On Windows, extract that ZIP somewhere short such as `C:\vault` rather than the Desktop, because Windows cannot create a file whose full path exceeds 260 characters, and Explorer skips the ones that do. Open that folder as a vault in Obsidian (File > Open Vault), then read [GETTING-STARTED.md](GETTING-STARTED.md) for the full folder map, template inventory, and linking mechanics.
 
 ## Structure
 
