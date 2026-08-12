@@ -1,18 +1,18 @@
 # Getting Started with the Companion Vault
 
-This vault provides pre-configured infrastructure for networked thinking. Essential plugins, templates, and example notes are already set up—you can start creating notes immediately.
+This vault provides pre-configured infrastructure for networked thinking. Essential plugins, templates, and example notes are already set up, so you can start creating notes immediately.
 
 ## Four Design Principles
 
-Your workspace rests on four principles that make knowledge work frictionless:
+Four principles shape how this workspace is laid out:
 
 **Separate raw from processed.** Capture ideas to Inbox instantly without organizing. Process them during weekly review when you have mental space for evaluation. This separation maintains flow during interruption and deliberation during cultivation.
 
-**Favor flat over deep.** Links beat folder hierarchies for knowledge organization. Structure notes beat subfolders for navigation. Deep hierarchies hide connections; flat structures reveal them. A note about "decision fatigue" appears in Psychology, Productivity, and Leadership contexts through links—not by choosing a single folder.
+**Favor flat over deep.** Links beat folder hierarchies for knowledge organization. Structure notes beat subfolders for navigation. Deep hierarchies hide connections; flat structures reveal them. A note about "decision fatigue" appears in Psychology, Productivity, and Leadership contexts through links, not by choosing a single folder.
 
 **Blend time and topic.** Daily notes capture temporal reflection (what happened today). Structure notes create conceptual maps (productivity concepts organized by relationship). Time preserves context; topics reveal patterns. Both matter.
 
-**Build semantic connections through links and aliases.** Every link creates a meaningful relationship in your knowledge graph. Aliases extend discoverability—"ROI," "return on investment," and "investment returns" all point to the same concept. Discovery emerges through meaning, not memory.
+**Build semantic connections through links and aliases.** Every link creates a meaningful relationship in your knowledge graph. Aliases extend discoverability, so "ROI," "return on investment," and "investment returns" all point to the same concept. Discovery emerges through meaning, not memory.
 
 ## Folder System
 
@@ -51,6 +51,8 @@ Add these only when specific needs arise:
 **Places and Things** - Physical locations, tools, equipment, resources referenced repeatedly.
 
 **Attachments** - Images, PDFs, audio files, media. Keeps them separate from knowledge content.
+
+**Bases** - Saved `.base` view definitions that templates embed, such as the daily note's created-today and modified-today lists.
 
 **Key principle:** Folders organize workflow (Inbox → processing → reflection), not categories (Marketing/, Philosophy/). Knowledge transcends arbitrary categories.
 
@@ -130,7 +132,7 @@ All aliases link to the same note, respecting how different domains use varied t
 
 ### Bidirectional Linking
 
-Links automatically create backlinks—no need to edit both notes. Check **Outgoing Links** (left sidebar) to see what you could link to. Check **Backlinks** to see who's linking to the current note. **Unlinked mentions** show text matches that could become links.
+Links automatically create backlinks, so there is no need to edit both notes. Check **Outgoing Links** (left sidebar) to see what you could link to. Check **Backlinks** to see who's linking to the current note. **Unlinked mentions** show text matches that could become links.
 
 ## Essential Hotkeys
 

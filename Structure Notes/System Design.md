@@ -8,7 +8,7 @@ title: System Design
 
 # System Design
 
-A map of computer-science ideas that inform how this knowledge system is built—data structures and computational-thinking concepts worth borrowing.
+A map of computer-science ideas that inform how this knowledge system is built, covering data structures and computational-thinking concepts worth borrowing.
 
 ## Data Structures
 

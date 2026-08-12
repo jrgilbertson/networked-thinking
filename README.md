@@ -38,7 +38,7 @@ For agentic assistants working directly in the vault, the companion [Networked T
 
 ## Status
 
-This vault is active, pre-launch material for the book, due in 2026. It already holds fourteen atomic notes, three structure notes, fourteen templates, five days of example daily notes, and one fully processed reference note, all real content to open and read rather than stub files. See [CHANGELOG.md](CHANGELOG.md) for what has changed between tagged releases. Additional vocabulary entries and cross-domain linking examples are still being added.
+This vault is active, pre-launch material for the book, due in 2026. It already holds fourteen atomic notes, three structure notes, fourteen templates, and one fully processed reference note, all real content to open and read rather than stub files. Five daily notes show the shape of the daily rhythm, one worked through and four left blank to write into. See [CHANGELOG.md](CHANGELOG.md) for what has changed between tagged releases. Additional vocabulary entries and cross-domain linking examples are still being added.
 
 Learn more and join the waitlist at [networkedthinking.ai](https://networkedthinking.ai/). For beta reading or early-access questions, email [jason.gilbertson@gmail.com](mailto:jason.gilbertson@gmail.com) or [yeh.terri@gmail.com](mailto:yeh.terri@gmail.com).
 

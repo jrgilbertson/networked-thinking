@@ -35,7 +35,7 @@ For {{date:YYYY-MM-DD}}.
 
 ### Key learning
 
-{{Select one learning to carry forward. Make it a reusable pattern, decision rule, or behavioral correction—not a recap or a list.}}
+{{Select one learning to carry forward. Make it a reusable pattern, decision rule, or behavioral correction, not a recap or a list.}}
 
 ### Gratitude
 

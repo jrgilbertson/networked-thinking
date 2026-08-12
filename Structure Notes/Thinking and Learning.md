@@ -8,7 +8,7 @@ title: Thinking and Learning
 
 # Thinking and Learning
 
-A map of the cognitive science behind the method—how knowledge is managed, how we recognize patterns, and how memory is strengthened.
+A map of the cognitive science behind the method: how we manage knowledge, recognize patterns, and strengthen memory.
 
 ## Knowledge Management
 

@@ -8,7 +8,7 @@ title: Networked Thinking System
 
 # Networked Thinking System
 
-The main hub for the Curate, Connect, Cultivate methodology—start here and follow the links to see how the foundational concepts and frameworks fit together.
+The main hub for the Networked Thinking methodology. Start here and follow the links to see how the foundational concepts and frameworks fit together.
 
 ## Foundational Concepts
 

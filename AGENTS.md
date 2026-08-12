@@ -18,7 +18,7 @@ Start with `README.md` and `GETTING-STARTED.md` when you need product context. U
 - Keep the `README.md` badges as links, not bare images. The license badge links to `LICENSE.md` and the release badge links to the Releases page; both are wrapped as `[![Alt](image-url)](target-url)`. It is easy to drop the outer `[...](target)` when hand-editing the intro. If a README edit changes any line other than the one you were asked to change, restore it before committing.
 - Do not edit vendored Obsidian plugin bundles under `.obsidian/plugins/` unless the task is explicitly about plugin files.
 - When adding media or non-markdown assets, place them under `Attachments/` unless the user gives a more specific location.
-- Use ASCII for new project files unless a note already uses non-ASCII characters for its content.
+- Write new files in ASCII. Non-ASCII belongs only where the content requires it, such as IPA in vocabulary notes or a name spelled with diacritics. Use a comma, a colon, a period, or a reworked sentence rather than an em dash.
 
 ## Vault Conventions
 
