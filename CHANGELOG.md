@@ -45,6 +45,11 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
   folders are just clutter. `AGENTS.md` now rules them out and `.gitignore`
   keeps them from returning; the same folders stay in the skills and site
   repositories, which are not vaults.
+- `Attachments/jason-knowledge-graph.png` and `Attachments/fonts/`, which only
+  the removed `docs/` files referenced. The graph image is the source for the
+  superseded 3:1 banner and is still tracked by the companion site repository;
+  the fonts existed to make the ratio study self-contained. Together they cut
+  about 340 KB from every download.
 
 ## [1.2.0] - 2026-07-09
 
