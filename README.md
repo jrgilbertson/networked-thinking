@@ -27,7 +27,7 @@ Structure Notes/  Topic maps that link related atomic notes together
 Reference Notes/  Notes on external sources, kept before they're synthesized
 Templates/        Starting points for every note type
 Inbox/            Raw capture, sorted during weekly review
-Reviews/          Daily, weekly, and quarterly reflection notes
+Reviews/          Daily, weekly, and quarterly reflections, plus decision records
 ```
 
 People, Meetings, Projects, Vocabulary Notes, and Places and Things are optional workflow folders. `Attachments/` holds media and `Bases/` holds the saved view definitions that templates embed. [GETTING-STARTED.md](GETTING-STARTED.md) has the complete folder map, the full template inventory, and the wikilink and alias mechanics.

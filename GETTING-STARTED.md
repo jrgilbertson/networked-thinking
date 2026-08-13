@@ -14,9 +14,9 @@ The plugins, templates, and example notes are already set up, so you can write y
 
 ## Folder System
 
-Your workspace has thirteen folders, grouped by where a note sits in your workflow. Several ship empty for you to fill: Inbox, Projects, Places and Things, Vocabulary Notes, and the weekly, quarterly, and decision review folders.
+Your workspace is grouped by where a note sits in your workflow. Several ship empty for you to fill: Inbox, Projects, Places and Things, Vocabulary Notes, and the weekly, quarterly, and decision review folders.
 
-### Essential Folders (6)
+### Essential Folders
 
 **Inbox** holds quick captures with no formatting or organization. Review it during your daily or weekly rhythm, turning what earns a place into atomic notes and deleting the rest.
 
@@ -34,9 +34,9 @@ Your workspace has thirteen folders, grouped by where a note sits in your workfl
 
 **Templates** keeps every note template in one place, so you are not choosing a format while trying to capture something.
 
-### Supporting Folders (7)
+### Supporting Folders
 
-The first five are workflow folders to add as the need arises. Attachments and Bases ship with the vault and are already wired in.
+Add the workflow folders below as the need arises. Attachments and Bases are different: they ship with the vault and are already wired in.
 
 **Projects** documents multi-session work, linking the atomic notes, reference notes, and meetings behind it.
 
@@ -72,7 +72,7 @@ Folders organize workflow (Inbox > processing > reflection), not categories (Mar
 
 ## Template Inventory
 
-The vault includes fourteen templates accessible via Cmd+T:
+Templates are available via Cmd+T:
 
 1. **Atomic Note Template** - DAE framework (optional Anki block)
 2. **Company Template** - Organization profile and relationship context
