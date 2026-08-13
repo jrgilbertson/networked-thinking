@@ -17,8 +17,6 @@ This vault is the companion to [Networked Thinking](https://networkedthinking.ai
 
 Install [Obsidian](https://obsidian.md/), the free local-first app this vault is built for. Then either click "Use this template" on this repository to create your own version-controlled copy, or download the latest release ZIP from the [Releases page](https://github.com/jrgilbertson/networked-thinking/releases) for a plain folder. Open that folder as a vault in Obsidian (File > Open Vault), then read [GETTING-STARTED.md](GETTING-STARTED.md) for the full folder map, template inventory, and linking mechanics.
 
-On Windows, extract the ZIP somewhere short such as `C:\vault` rather than the Desktop. Windows cannot create a file whose full path exceeds 260 characters, and Explorer skips the ones that do.
-
 ## Structure
 
 Content is organized by workflow state, with links and structure notes carrying the topic organization instead of folders. The essential folders:

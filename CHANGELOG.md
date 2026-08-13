@@ -30,7 +30,6 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
   path past 171 UTF-8 bytes.
 - A path-budget rule in `AGENTS.md` and `Templates/Atomic Note Template.md`,
   with guidance to split an over-long Definition rather than cut words.
-- Windows extraction guidance in the README quickstart.
 
 ### Changed
 
