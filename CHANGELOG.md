@@ -37,6 +37,10 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Added
 
+- Obsidian CLI guidance. `GETTING-STARTED.md` documents turning it on and the
+  vault-targeting rules; `AGENTS.md` requires agents to use it for create,
+  rename, move, and delete so Obsidian rewrites inbound wikilinks, guarded by a
+  check that the CLI is pointed at this checkout and not another one.
 - `.github/workflows/path-length.yml`, failing any change that pushes a vault
   path past 171 UTF-8 bytes.
 - A path-budget rule in `AGENTS.md` and `Templates/Atomic Note Template.md`,
