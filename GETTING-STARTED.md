@@ -1,78 +1,78 @@
 # Getting Started with the Companion Vault
 
-This vault provides pre-configured infrastructure for networked thinking. Essential plugins, templates, and example notes are already set up—you can start creating notes immediately.
+The plugins, templates, and example notes are already set up, so you can write your first note without configuring anything.
 
 ## Four Design Principles
 
-Your workspace rests on four principles that make knowledge work frictionless:
+**Separate raw from processed.** Capture ideas to Inbox instantly without organizing. Process them during weekly review when you have mental space for evaluation.
 
-**Separate raw from processed.** Capture ideas to Inbox instantly without organizing. Process them during weekly review when you have mental space for evaluation. This separation maintains flow during interruption and deliberation during cultivation.
+**Favor flat over deep.** Links beat folder hierarchies for knowledge organization. Structure notes beat subfolders for navigation. A note about "decision fatigue" appears in Psychology, Productivity, and Leadership contexts through links, not by choosing a single folder.
 
-**Favor flat over deep.** Links beat folder hierarchies for knowledge organization. Structure notes beat subfolders for navigation. Deep hierarchies hide connections; flat structures reveal them. A note about "decision fatigue" appears in Psychology, Productivity, and Leadership contexts through links—not by choosing a single folder.
+**Blend time and topic.** Daily notes capture temporal reflection (what happened today). Structure notes create conceptual maps (productivity concepts organized by relationship).
 
-**Blend time and topic.** Daily notes capture temporal reflection (what happened today). Structure notes create conceptual maps (productivity concepts organized by relationship). Time preserves context; topics reveal patterns. Both matter.
-
-**Build semantic connections through links and aliases.** Every link creates a meaningful relationship in your knowledge graph. Aliases extend discoverability—"ROI," "return on investment," and "investment returns" all point to the same concept. Discovery emerges through meaning, not memory.
+**Build semantic connections through links and aliases.** Every link creates a meaningful relationship in your knowledge graph. Aliases extend discoverability, so "ROI," "return on investment," and "investment returns" all point to the same concept.
 
 ## Folder System
 
-Your workspace contains thirteen folders organized by workflow state, not knowledge category.
+Your workspace is grouped by where a note sits in your workflow. Several ship empty for you to fill: Inbox, Projects, Places and Things, Vocabulary Notes, and the weekly, quarterly, and decision review folders.
 
-### Essential Folders (6)
+### Essential Folders
 
-**Inbox** - Quick capture without formatting or organization. Review during daily or weekly rhythms, converting worthy items to atomic notes and deleting the rest.
+**Inbox** holds quick captures with no formatting or organization. Review it during your daily or weekly rhythm, turning what earns a place into atomic notes and deleting the rest.
 
-**Atomic Notes** - Self-contained concepts, one per note. Uses flat structure with no subfolders. Notes organize through links and structure notes, not folder hierarchies. Every atomic note must appear on at least one structure note (no orphans).
+**Atomic Notes** holds one self-contained concept per note. The folder is flat, with no subfolders, because the notes organize themselves through links and structure notes.
 
-**Structure Notes** - Topic maps linking related atomic notes. Think curated reading lists organized around themes. Navigate your knowledge by opening structure notes and following links.
+**Structure Notes** holds topic maps that link related atomic notes, closer to a curated reading list than to a folder. You navigate the vault by opening one and following its links.
 
-**Reference Notes** - Processed insights from books, articles, podcasts, research papers. Summarizes source ideas in original context. Contains Books/ and Articles/ subfolders for organization (optional).
+**Reference Notes** holds processed insights from books, articles, podcasts, and research papers. Each one keeps the author's ideas in their original context, before you pull them into atomic notes. A `Books/` subfolder is set up; add others as your sources need them.
 
-**Reviews** - Temporal anchors for reflection and planning. Nested structure:
+**Reviews** anchors reflection and planning to dates:
 	- Daily Notes/ - Day-to-day reflections
 	- Weekly Review/ - Weekly patterns and planning
 	- Decisions/ - Significant choices requiring documentation
 	- Quarterly Reviews/ - Long-term reflection
 
-**Templates** - All note templates in one location. Reduces cognitive load during capture by providing consistent structure.
+**Templates** keeps every note template in one place, so you are not choosing a format while trying to capture something.
 
-### Optional Folders (7)
+### Supporting Folders
 
-Add these only when specific needs arise:
+Add the workflow folders below as the need arises. Attachments and Bases are different: they ship with the vault and are already wired in.
 
-**Projects** - Multi-session work documentation linking atomic notes, reference notes, and meetings.
+**Projects** documents multi-session work, linking the atomic notes, reference notes, and meetings behind it.
 
-**People** - Recurring collaborators, capturing expertise and relationship context.
+**People** captures expertise and relationship context for the people you work with repeatedly.
 
-**Meetings** - Regular meetings requiring searchable records.
+**Meetings** keeps searchable records of the meetings worth returning to.
 
-**Vocabulary Notes** - Technical terms within specific contexts (legal, medical, technical). Differs from atomic notes which connect across domains.
+**Vocabulary Notes** defines technical terms inside a single field, such as legal or medical usage. Atomic notes, by contrast, connect across domains.
 
-**Places and Things** - Physical locations, tools, equipment, resources referenced repeatedly.
+**Places and Things** covers the locations, tools, and equipment you reference repeatedly.
 
-**Attachments** - Images, PDFs, audio files, media. Keeps them separate from knowledge content.
+**Attachments** holds images, PDFs, and audio, kept out of the note folders. Obsidian is configured to save new attachments here.
 
-**Key principle:** Folders organize workflow (Inbox → processing → reflection), not categories (Marketing/, Philosophy/). Knowledge transcends arbitrary categories.
+**Bases** holds the saved `.base` view definitions that templates embed, such as the daily note's created-today and modified-today lists. The Daily Note Template depends on it.
+
+Folders organize workflow (Inbox > processing > reflection), not categories (Marketing/, Philosophy/).
 
 ## Note Types
 
-**Atomic Notes** - One concept per note following DAE framework: Definition (concise explanation), Analogy (memorable comparison), Example (concrete application). Timestamp filename format: `YYYYMMDDHHMM Full sentence describing core insight.md`. Self-contained and reusable across contexts.
+**Atomic Notes** carry one concept each in DAE form: a Definition, an Analogy, and an Example. Name the file with the timestamp followed by the Definition's first sentence, without its final period, as in `YYYYMMDDHHMM The Definition's first sentence.md`. Keep the whole path at or under 171 bytes so the vault survives a Windows download; if the sentence runs long, split the Definition into two sentences rather than cutting words.
 
-**Structure Notes** - Navigation hubs organizing atomic notes by topic. Create themed collections showing how concepts relate. Ensures no atomic note becomes orphaned. Update as you add relevant atomic notes.
+**Structure Notes** are navigation hubs that group atomic notes by topic and show how the concepts relate. Update one whenever you add a note that belongs on it.
 
-**Reference Notes** - Summaries of external sources in original context. Captures author's ideas before integrating into your thinking through atomic notes. Includes source metadata and key concepts.
+**Reference Notes** summarize an external source in its own context, with the source metadata alongside. They hold the author's ideas until you have turned them into atomic notes of your own.
 
-**Daily Notes** - Temporal reflection anchoring knowledge to specific dates. Includes Bases views showing notes created/modified today. Links events to people to concepts.
+**Daily Notes** anchor reflection to a date and link events to the people and concepts involved. They embed Bases views listing the notes created and modified that day.
 
-**People Notes** - Relationship context for recurring collaborators. Documents expertise, interaction history, insights from conversations. Timestamp each interaction for chronological tracking.
+**People Notes** record expertise, interaction history, and what came out of conversations. Timestamp each interaction so the log stays chronological.
 
-**Meeting Notes** - Event documentation with attendees, agenda, decisions, action items. Links to people who participated and concepts discussed.
+**Meeting Notes** capture attendees, agenda, decisions, and action items, and link to the people and concepts involved.
 
 **No orphans rule:** Every atomic note must appear on at least one structure note for discoverability.
 
 ## Template Inventory
 
-The vault includes fourteen templates accessible via Cmd+T:
+Templates are available via Cmd+T:
 
 1. **Atomic Note Template** - DAE framework (optional Anki block)
 2. **Company Template** - Organization profile and relationship context
@@ -126,11 +126,11 @@ aliases:
   - investment returns
 ```
 
-All aliases link to the same note, respecting how different domains use varied terminology.
+All three open the same note, so you can type whichever term your field uses.
 
 ### Bidirectional Linking
 
-Links automatically create backlinks—no need to edit both notes. Check **Outgoing Links** (left sidebar) to see what you could link to. Check **Backlinks** to see who's linking to the current note. **Unlinked mentions** show text matches that could become links.
+Links automatically create backlinks, so there is no need to edit both notes. Check **Outgoing Links** in the sidebar to see what you could link to. Check **Backlinks** to see who's linking to the current note. **Unlinked mentions** show text matches that could become links.
 
 ## Essential Hotkeys
 
@@ -140,6 +140,22 @@ Links automatically create backlinks—no need to edit both notes. Check **Outgo
 - **Cmd+Shift+M** (Ctrl+Shift+M) - Move file to folder
 - **Cmd+G** (Ctrl+G) - Open graph view
 
+## Command Line Access
+
+Obsidian ships a command line interface that reads and edits this vault from a terminal, which is how an AI assistant should make changes: with Files and links -> Automatically update internal links enabled, it rewrites the wikilinks pointing at a note you rename or move, where a plain file rename leaves them dangling.
+
+To turn it on, open Settings, go to General, enable **Command line interface**, and follow the prompt to register it. You need the Obsidian 1.12.7 desktop installer or later, and the app has to be running for any command to work.
+
+Registration sets up the `obsidian` command for your platform:
+
+- macOS creates a symlink at `/usr/local/bin/obsidian` and asks for admin approval.
+- Windows adds the `Obsidian.com` terminal redirector. Restart your terminal afterward.
+- Linux copies the binary to `~/.local/bin/obsidian`. Make sure that directory is on your PATH.
+
+Run `obsidian help` for the full command list. `obsidian create`, `obsidian rename`, `obsidian move`, and `obsidian delete` cover the file operations, and `obsidian backlinks` shows what points at a note before you change it.
+
+If your terminal is sitting inside a vault folder, the CLI uses that vault. Otherwise it uses whichever vault is currently active, so check with `obsidian vault info=path` before running anything that writes. To choose a vault yourself, put `vault=<name>` before the command, as in `obsidian vault=my-vault rename file="Old note name" name="New note name"`. Placed after the command it is ignored rather than refused. Note that `file=` matches a filename, not an alias.
+
 ## Quick Start Actions
 
 **1. Explore existing notes**
@@ -148,14 +164,14 @@ Links automatically create backlinks—no need to edit both notes. Check **Outgo
 - Notice DAE structure pattern (Definition, Analogy, Example)
 
 **2. Create a note**
-- Press Cmd+N for timestamped filename
-- Press Cmd+T to insert template
-- Try Meeting Template or Atomic Note Template
-- Fill in sections and save
+- Press Cmd+N for a timestamped filename. The new note lands in Inbox/
+- Press Cmd+T to insert a template, such as Atomic Note or Meeting
+- Fill in the sections and save
+- For an atomic note, rename the file to the timestamp plus your Definition's first sentence, press Cmd+Shift+M to move it into Atomic Notes/, and link it from a structure note
 
 **3. Create today's daily note**
 - Press Cmd+. to create/open daily note
-- Notice Bases views automatically show notes created and modified today
+- The Bases views list the notes created and modified that day, once the Linter writes the date on save
 - Add a reflection entry linking to existing atomic notes
 
 **4. Practice linking**

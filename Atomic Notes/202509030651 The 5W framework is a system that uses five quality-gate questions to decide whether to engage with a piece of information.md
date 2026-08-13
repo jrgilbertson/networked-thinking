@@ -24,7 +24,7 @@ For example, before saving an article about a new programming language, you woul
 
 Reference:
 
-- Related concepts: [[202509030636 The DAE framework is a structured method for writing atomic notes that ensures clarity and retention by organizing each note into three parts—a concise Definition, a relatable Analogy, and a concrete Example|DAE Framework]] and [[202509030621 A reference note captures key ideas from an external source, serving as a bridge between consuming information and creating original thought|Reference Note]].
+- Related concepts: [[202509030636 The DAE framework is a structured method for writing atomic notes|DAE Framework]] and [[202509030621 A reference note captures key ideas from an external source, serving as a bridge between consuming information and creating original thought|Reference Note]].
 
 Sources:
 

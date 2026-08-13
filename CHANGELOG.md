@@ -6,11 +6,87 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [1.2.1] - 2026-08-12
+
+### Fixed
+
+- Atomic note filenames that made every released ZIP unopenable on Windows.
+  Windows File Explorer rejects an entire archive when any entry reaches 260
+  bytes, and GitHub prepends `networked-thinking-<ref>/` to every path, so
+  one 238-byte note pushed the archive to 263 bytes. Both the Releases ZIP and
+  the repository's "Download ZIP" button failed, in v1.0.0, v1.1.0, and v1.2.0.
+  Eight Definitions were split into two sentences, keeping the meaning and the
+  filename-matches-Definition convention, which brought the longest vault path
+  from 238 bytes to 169.
+- Extraction and `git clone` on Windows, which previously skipped notes whose
+  extracted path exceeded the 260-character limit and left the vault with broken
+  wikilinks.
+- A stale example wikilink in `GETTING-STARTED.md` that pointed at a truncated
+  DAE framework filename which no longer existed.
+- Four claims in `GETTING-STARTED.md` that a reader following along would see
+  contradicted: a `Reference Notes/Articles/` subfolder that has never existed,
+  `Bases/` listed as optional when the Daily Note Template embeds it, an
+  Outgoing Links panel described as left-hand when a fresh clone opens with
+  Obsidian's default layout, and a Quick Start step that left a new atomic note
+  in `Inbox/` under a bare timestamp, against the folder and filename rules the
+  same guide states.
+- The filename convention in `GETTING-STARTED.md`, which omitted the dropped
+  final period and the 171-byte path budget that CI now enforces.
+- The periodic-notes configuration, which named a quarterly folder that does
+  not exist and a monthly template this vault has never had.
+
+### Added
+
+- Obsidian CLI guidance. `GETTING-STARTED.md` documents turning it on and the
+  vault-targeting rules; `AGENTS.md` requires agents to use it for create,
+  rename, move, and delete so Obsidian rewrites inbound wikilinks, guarded by a
+  check that the CLI is pointed at this checkout and not another one.
+- `.github/workflows/path-length.yml`, failing any change that pushes a vault
+  path past 171 UTF-8 bytes.
+- A path-budget rule in `AGENTS.md` and `Templates/Atomic Note Template.md`,
+  with guidance to split an over-long Definition rather than cut words.
+
 ### Changed
 
 - Updated the README banner to the shared Networked Thinking visual system and
   current tagline, removing proof marks and the border so the title and
   knowledge graph remain prominent.
+- Rewrote the README introduction around what this repository is, the companion
+  vault to the book, and linked the book site. The three-verb summary of the
+  methodology is gone, since the vault itself demonstrates it better than a
+  sentence can.
+- Rewrote the folder and note-type descriptions in `GETTING-STARTED.md` as
+  sentences with subjects. Written as headline fragments they read as machine
+  output, and they had produced six subject-verb mismatches and three dangling
+  modifiers. Also cut five closing abstractions that restated the concrete
+  sentence before them.
+- Pruned `.obsidian/hotkeys.json` from 36 bindings to 18. Half pointed at
+  plugins this vault does not ship, including Copilot, Todoist, Excalidraw, and
+  two personal custom scripts, so a downloader inherited dead keys and a view
+  of someone else's setup.
+- Dropped the README pointer to the book's Appendix D prompt. The book is
+  unpublished, so it sent readers somewhere they cannot go; the skills project
+  named in the same paragraph is usable today.
+
+### Removed
+
+- The `docs/` tree, holding a banner ratio study and a design-pattern writeup.
+  Someone who downloads this vault opens it in Obsidian, where agent working
+  folders are just clutter. `AGENTS.md` now rules them out and `.gitignore`
+  keeps them from returning; the same folders stay in the skills and site
+  repositories, which are not vaults.
+- `PRODUCT.md`, a design brief for the README banner written for first-time
+  GitHub visitors rather than for vault users. The brand register, anti-
+  references, and accessibility standard it recorded live in the companion
+  site repository, which is where design work happens.
+- `.impeccable/critique/`, a design review of the banner study removed above.
+  It shipped in every download and its only subject was a file that no longer
+  exists. `.gitignore` now keeps the folder out.
+- `Attachments/jason-knowledge-graph.png` and `Attachments/fonts/`, which only
+  the removed `docs/` files referenced. The graph image is the source for the
+  superseded 3:1 banner and is still tracked by the companion site repository;
+  the fonts existed to make the ratio study self-contained. Together they cut
+  about 340 KB from every download.
 
 ## [1.2.0] - 2026-07-09
 
@@ -74,7 +150,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Removed unnecessary YAML metadata from the README.
 - Updated vault documentation, templates, and structure for the book launch.
 
-[Unreleased]: https://github.com/jrgilbertson/networked-thinking/compare/v1.2.0...HEAD
+[Unreleased]: https://github.com/jrgilbertson/networked-thinking/compare/v1.2.1...HEAD
+[1.2.1]: https://github.com/jrgilbertson/networked-thinking/compare/v1.2.0...v1.2.1
 [1.2.0]: https://github.com/jrgilbertson/networked-thinking/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/jrgilbertson/networked-thinking/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/jrgilbertson/networked-thinking/releases/tag/v1.0.0

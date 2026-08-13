@@ -13,7 +13,7 @@ For {{date:YYYY-MM-DD}}.
 
 ## Pulse
 
-{{Optional 1–5 check-in. Use this to notice the state, not to grade the day.}}
+{{Optional 1-5 check-in. Use this to notice the state, not to grade the day.}}
 
 - Energy:
 - Motivation:
@@ -35,7 +35,7 @@ For {{date:YYYY-MM-DD}}.
 
 ### Key learning
 
-{{Select one learning to carry forward. Make it a reusable pattern, decision rule, or behavioral correction—not a recap or a list.}}
+{{Select one learning to carry forward. Make it a reusable pattern, decision rule, or behavioral correction, not a recap or a list.}}
 
 ### Gratitude
 

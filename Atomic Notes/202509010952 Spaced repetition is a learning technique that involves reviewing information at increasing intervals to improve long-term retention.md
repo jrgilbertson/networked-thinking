@@ -19,7 +19,7 @@ For example, when learning Spanish vocabulary, you might review the word "gato" 
 
 Reference:
 
-- Related concepts: [[202509010956 The Ebbinghaus forgetting curve is a model showing how memory retention declines exponentially over time if there is no attempt to review the learned information|Ebbinghaus Forgetting Curve]] and [[202509011003 The Zettelkasten method is a knowledge management system that organizes information into a network of interconnected, atomic notes|Zettelkasten]].
+- Related concepts: [[202509010956 The Ebbinghaus forgetting curve is a model showing how memory retention declines exponentially over time|Ebbinghaus Forgetting Curve]] and [[202509011003 The Zettelkasten method is a knowledge management system that organizes information into a network of interconnected, atomic notes|Zettelkasten]].
 
 Sources:
 

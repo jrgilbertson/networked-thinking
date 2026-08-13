@@ -8,29 +8,12 @@
       "key": "N"
     }
   ],
-  "obsidian-languagetool-plugin:ltcheck-text": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "Y"
-    }
-  ],
   "insert-template": [
     {
       "modifiers": [
         "Mod"
       ],
       "key": "T"
-    }
-  ],
-  "obsidian-tasks-plugin:toggle-done": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "Enter"
     }
   ],
   "editor:toggle-checklist-status": [],
@@ -40,14 +23,6 @@
         "Mod"
       ],
       "key": "R"
-    }
-  ],
-  "obsidian-footnotes:insert-footnote": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "6"
     }
   ],
   "periodic-notes:open-daily-note": [
@@ -67,18 +42,6 @@
     }
   ],
   "file-explorer:new-file-in-new-pane": [],
-  "obsidian-excalidraw-plugin:insert-link-to-element": [],
-  "obsidian-kanban:toggle-kanban-view": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "K"
-    }
-  ],
-  "obsidian-excalidraw-plugin:insert-link": [],
-  "obsidian-excalidraw-plugin:save": [],
   "workspace:goto-tab-6": [],
   "workspace:goto-tab-8": [],
   "workspace:goto-tab-7": [],
@@ -101,24 +64,6 @@
       "key": "Y"
     }
   ],
-  "copilot:apply-custom-prompt": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "P"
-    }
-  ],
-  "copilot:remove-urls-prompt": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "U"
-    }
-  ],
   "workspace:new-tab": [
     {
       "modifiers": [
@@ -126,23 +71,6 @@
         "Shift"
       ],
       "key": "N"
-    }
-  ],
-  "copilot:generate-glossary-prompt": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "G"
-    }
-  ],
-  "todoist-sync-plugin:todoist-add-task-current-page": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "Enter"
     }
   ],
   "workspace:undo-close-pane": [],
@@ -155,15 +83,6 @@
       "key": "1"
     }
   ],
-  "smart-connections:smart-connections-random": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "R"
-    }
-  ],
   "editor:toggle-bullet-list": [
     {
       "modifiers": [
@@ -171,59 +90,6 @@
         "Shift"
       ],
       "key": "2"
-    }
-  ],
-  "todoist-sync-plugin:add-task-page-description": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "Enter"
-    }
-  ],
-  "typewriter-mode:isPluginActivated": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "T"
-    }
-  ],
-  "custom-scripts:tag-recent-review-notes": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "R"
-    }
-  ],
-  "custom-scripts:tag-recent-meetings-projects-people-notes": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "E"
-    }
-  ],
-  "copilot:find-similar-notes": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "S"
-    }
-  ],
-  "copilot:add-selection-to-chat-context": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "L"
     }
   ]
 }

@@ -19,7 +19,7 @@ For the quarter of {{date:YYYY-[Q]Q}}.
 
 ### What Changed?
 
-{{Name the meaningful changes from this quarter. Include external results, internal state, relationships, strategy, health, energy, confidence, constraints, and opportunities. Prefer "the system shifted because…" over a list of events.}}
+{{Name the meaningful changes from this quarter. Include external results, internal state, relationships, strategy, health, energy, confidence, constraints, and opportunities. Prefer "the system shifted because..." over a list of events.}}
 
 ### Major Wins
 
@@ -35,7 +35,7 @@ For the quarter of {{date:YYYY-[Q]Q}}.
 
 ### Patterns Noticed
 
-{{Synthesize repeated signals from all available evidence: notes, tasks, projects, meetings, conversations, calendar history, health data, financial signals, shipped work, and other relevant sources. Prefer "this kept happening because…" over isolated anecdotes.}}
+{{Synthesize repeated signals from all available evidence: notes, tasks, projects, meetings, conversations, calendar history, health data, financial signals, shipped work, and other relevant sources. Prefer "this kept happening because..." over isolated anecdotes.}}
 
 ### Energy / Motivation / Health
 
@@ -109,13 +109,13 @@ For the quarter of {{date:YYYY-[Q]Q}}.
 
 ## Next Quarter
 
-### 3–5 Outcomes
+### 3-5 Outcomes
 
 {{Choose outcomes, not a task pile. Each outcome should be important enough to protect time, attention, and tradeoffs for.}}
 
 ### Operating Principles
 
-{{What principles should guide next quarter's planning? Include constraints, defaults, boundaries, or "if this happens, then…" rules that would reduce decision fatigue.}}
+{{What principles should guide next quarter's planning? Include constraints, defaults, boundaries, or "if this happens, then..." rules that would reduce decision fatigue.}}
 
 ### Habit / Rhythm Adjustments
 

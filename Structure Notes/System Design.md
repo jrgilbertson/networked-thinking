@@ -8,13 +8,13 @@ title: System Design
 
 # System Design
 
-A map of computer-science ideas that inform how this knowledge system is built—data structures and computational-thinking concepts worth borrowing.
+A map of computer-science ideas that inform how this knowledge system is built, covering data structures and computational-thinking concepts worth borrowing.
 
 ## Data Structures
 
-1. [[202508311142 A graph is a non-linear data structure composed of a set of vertices (or nodes) and a set of edges that represent connections between these vertices]]
+1. [[202508311142 A graph is a non-linear data structure composed of a set of vertices and a set of edges]]
 
 ## Computational Thinking
 
-1. [[202508311132 Modularity is a software design principle that involves dividing a program into separate, independent modules, where each module is responsible for a specific piece of the program's functionality]]
-2. [[202511181119 Abstraction is the process of identifying and isolating the essential features of a concept or object while deliberately ignoring irrelevant details]]
+1. [[202508311132 Modularity is a software design principle that involves dividing a program into separate, independent modules]]
+2. [[202511181119 Abstraction is the process of identifying and isolating the essential features of a concept or object]]

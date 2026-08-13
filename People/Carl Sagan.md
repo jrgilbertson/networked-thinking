@@ -20,4 +20,4 @@ Astronomer and science communicator who made complex astrophysics accessible thr
 
 ## Comments
 
-1. [[2025-11-18]]: Met at [[202511180902 Consolidating scattered team knowledge]]. Sees knowledge organization like astronomy: [[202511181121 Pattern recognition is the cognitive ability to identify recurring structures, regularities, or relationships across different instances of data or experiences|pattern recognition]] reveals structure in scattered data.
+1. [[2025-11-18]]: Met at [[202511180902 Consolidating scattered team knowledge]]. Sees knowledge organization like astronomy: [[202511181121 Pattern recognition is the cognitive ability to identify recurring structures, regularities, or relationships|pattern recognition]] reveals structure in scattered data.

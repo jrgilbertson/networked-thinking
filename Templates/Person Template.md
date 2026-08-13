@@ -22,6 +22,6 @@ date_last_contacted:
 
 ## Comments
 
-{{Relationship history as a forward-chronological numbered list (oldest first). Each entry starts with [[YYYY-MM-DD]]: and carries the signal — career changes, introductions made, conversations that mattered, shifts in the dynamic.}}
+{{Relationship history as a forward-chronological numbered list (oldest first). Each entry starts with [[YYYY-MM-DD]]: and carries the signal: career changes, introductions made, conversations that mattered, shifts in the dynamic.}}
 
 1. [[{{date:YYYY-MM-DD}}]]: {{First interaction or context.}}
