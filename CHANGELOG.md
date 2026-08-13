@@ -23,6 +23,17 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
   wikilinks.
 - A stale example wikilink in `GETTING-STARTED.md` that pointed at a truncated
   DAE framework filename which no longer existed.
+- Four claims in `GETTING-STARTED.md` that a reader following along would see
+  contradicted: a `Reference Notes/Articles/` subfolder that has never existed,
+  `Bases/` listed as optional when the Daily Note Template embeds it, an
+  Outgoing Links panel described as left-hand when a fresh clone opens with
+  Obsidian's default layout, and a Quick Start step that left a new atomic note
+  in `Inbox/` under a bare timestamp, against the folder and filename rules the
+  same guide states.
+- The filename convention in `GETTING-STARTED.md`, which omitted the dropped
+  final period and the 171-byte path budget that CI now enforces.
+- The periodic-notes configuration, which named a quarterly folder that does
+  not exist and a monthly template this vault has never had.
 
 ### Added
 
@@ -40,6 +51,15 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
   vault to the book, and linked the book site. The three-verb summary of the
   methodology is gone, since the vault itself demonstrates it better than a
   sentence can.
+- Rewrote the folder and note-type descriptions in `GETTING-STARTED.md` as
+  sentences with subjects. Written as headline fragments they read as machine
+  output, and they had produced six subject-verb mismatches and three dangling
+  modifiers. Also cut five closing abstractions that restated the concrete
+  sentence before them.
+- Pruned `.obsidian/hotkeys.json` from 36 bindings to 18. Half pointed at
+  plugins this vault does not ship, including Copilot, Todoist, Excalidraw, and
+  two personal custom scripts, so a downloader inherited dead keys and a view
+  of someone else's setup.
 - Dropped the README pointer to the book's Appendix D prompt. The book is
   unpublished, so it sent readers somewhere they cannot go; the skills project
   named in the same paragraph is usable today.
