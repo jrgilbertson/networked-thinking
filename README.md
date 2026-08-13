@@ -32,11 +32,11 @@ Reviews/          Daily, weekly, and quarterly reflection notes
 
 People, Meetings, Projects, Vocabulary Notes, and Places and Things are optional workflow folders. `Attachments/` holds media and `Bases/` holds the saved view definitions that templates embed. [GETTING-STARTED.md](GETTING-STARTED.md) has the complete folder map, the full template inventory, and the wikilink and alias mechanics.
 
-For agentic assistants working directly in the vault, the companion [Networked Thinking Skills](https://github.com/jrgilbertson/networked-thinking-skills) project adds `atomic-note` and `atomic-note-audit` skills (`npx skills add`).
+For agentic assistants working directly in the vault, the companion [Networked Thinking Skills](https://github.com/jrgilbertson/networked-thinking-skills) project adds `atomic-note` and `atomic-note-audit` skills.
 
 ## Status
 
-This is active, pre-launch material for the book, due in 2026. It already holds fourteen atomic notes, three structure notes, fourteen templates, and one fully processed reference note, all real content to open and read rather than stub files. Five daily notes show the shape of the routine, one worked through and four left blank to write into. See [CHANGELOG.md](CHANGELOG.md) for what has changed between tagged releases. Additional vocabulary entries and cross-domain linking examples are still being added.
+This is active, pre-launch material for the book, due in 2026. It already holds fourteen atomic notes, three structure notes, fourteen templates, and one fully processed reference note, all real content to open and read rather than stub files. Five daily notes show the shape of the routine, one worked through and four left blank to write into. Inbox, Projects, and the weekly and quarterly review folders ship empty by design, ready for your own material. See [CHANGELOG.md](CHANGELOG.md) for what has changed between tagged releases. Vocabulary notes and more cross-domain linking examples are still to come.
 
 Learn more and join the waitlist at [networkedthinking.ai](https://networkedthinking.ai/). For beta reading or early-access questions, email [jason.gilbertson@gmail.com](mailto:jason.gilbertson@gmail.com) or [yeh.terri@gmail.com](mailto:yeh.terri@gmail.com).
 
