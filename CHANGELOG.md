@@ -79,6 +79,9 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
   GitHub visitors rather than for vault users. The brand register, anti-
   references, and accessibility standard it recorded live in the companion
   site repository, which is where design work happens.
+- `.impeccable/critique/`, a design review of the banner study removed above.
+  It shipped in every download and its only subject was a file that no longer
+  exists. `.gitignore` now keeps the folder out.
 - `Attachments/jason-knowledge-graph.png` and `Attachments/fonts/`, which only
   the removed `docs/` files referenced. The graph image is the source for the
   superseded 3:1 banner and is still tracked by the companion site repository;

@@ -18,3 +18,4 @@
 # This repo ships as a clean Obsidian vault, so agent working folders stay out.
 # Learnings, ideation, and plans live in the skills and site repos instead.
 docs/
+.impeccable/
