@@ -37,6 +37,10 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Updated the README banner to the shared Networked Thinking visual system and
   current tagline, removing proof marks and the border so the title and
   knowledge graph remain prominent.
+- Rewrote the README introduction around what this repository is, the companion
+  vault to the book, and linked the book site. The three-verb summary of the
+  methodology is gone, since the vault itself demonstrates it better than a
+  sentence can.
 
 ### Removed
 

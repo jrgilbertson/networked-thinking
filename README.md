@@ -11,9 +11,7 @@ Networked Thinking is a book and practical system for turning saved articles, hi
 
 I built the original setup in 2022 after realizing I confused saving information with learning from it. AI has made that mistake easier to make. The system protects the useful friction of writing down what I know, what connects, and what I still need to figure out. Then when I bring in AI, I'm asking it to work with my thinking instead of replacing it.
 
-This vault is the working implementation. Every note type, template, and folder described in the forthcoming book "Networked Thinking" by Jason Gilbertson and Terri Yeh is built out and linked, so you can see the system running rather than read about it in the abstract. Curate what earns a place using the 5W framework. Connect ideas through links and structure notes instead of folder hierarchies. Cultivate the system through regular review so it gets more useful with use.
-
-This is one way to run the methodology, not the only way. Adapt it to how you already think.
+This vault is the companion to [Networked Thinking](https://networkedthinking.ai/), the forthcoming book by Jason Gilbertson and Terri Yeh. Every note type, template, and folder the book describes is built out and linked here, so you can see the system running instead of reading about it in the abstract. It is one way to run the methodology rather than the only way, but a working example is an easier place to start than an empty vault. Adapt it to how you already think.
 
 ## Quickstart
 
