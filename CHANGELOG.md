@@ -51,6 +51,10 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
   folders are just clutter. `AGENTS.md` now rules them out and `.gitignore`
   keeps them from returning; the same folders stay in the skills and site
   repositories, which are not vaults.
+- `PRODUCT.md`, a design brief for the README banner written for first-time
+  GitHub visitors rather than for vault users. The brand register, anti-
+  references, and accessibility standard it recorded live in the companion
+  site repository, which is where design work happens.
 - `Attachments/jason-knowledge-graph.png` and `Attachments/fonts/`, which only
   the removed `docs/` files referenced. The graph image is the source for the
   superseded 3:1 banner and is still tracked by the companion site repository;
