@@ -24,8 +24,11 @@ def vault_paths():
     yet staged, is exactly the case this check exists to catch. Ignored files
     are excluded, so scratch files do not trip it.
     """
+    root = subprocess.run(
+        ["git", "rev-parse", "--show-toplevel"], check=True, capture_output=True
+    ).stdout.decode("utf-8").strip()
     out = subprocess.run(
-        ["git", "ls-files", "-z", "--cached", "--others", "--exclude-standard"],
+        ["git", "-C", root, "ls-files", "-z", "--cached", "--others", "--exclude-standard"],
         check=True,
         capture_output=True,
     ).stdout

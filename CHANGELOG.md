@@ -12,7 +12,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 - Atomic note filenames that made every released ZIP unopenable on Windows.
   Windows File Explorer rejects an entire archive when any entry reaches 260
-  bytes, and GitHub prepends `networked-thinking-<version>/` to every path, so
+  bytes, and GitHub prepends `networked-thinking-<ref>/` to every path, so
   one 238-byte note pushed the archive to 263 bytes. Both the Releases ZIP and
   the repository's "Download ZIP" button failed, in v1.0.0, v1.1.0, and v1.2.0.
   Eight Definitions were split into two sentences, keeping the meaning and the

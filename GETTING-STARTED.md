@@ -142,14 +142,14 @@ Links automatically create backlinks, so there is no need to edit both notes. Ch
 
 ## Command Line Access
 
-Obsidian ships a command line interface that reads and edits this vault from a terminal, which is how an AI assistant should make changes: it rewrites the wikilinks pointing at a note you rename or move, where a plain file rename leaves them dangling.
+Obsidian ships a command line interface that reads and edits this vault from a terminal, which is how an AI assistant should make changes: with Files and links -> Automatically update internal links enabled, it rewrites the wikilinks pointing at a note you rename or move, where a plain file rename leaves them dangling.
 
 To turn it on, open Settings, go to General, enable **Command line interface**, and follow the prompt to register it. You need the Obsidian 1.12.7 desktop installer or later, and the app has to be running for any command to work.
 
 Registration sets up the `obsidian` command for your platform:
 
 - macOS creates a symlink at `/usr/local/bin/obsidian` and asks for admin approval.
-- Windows adds the `Obsidian.com` terminal redirector. Restart your terminal afterwards.
+- Windows adds the `Obsidian.com` terminal redirector. Restart your terminal afterward.
 - Linux copies the binary to `~/.local/bin/obsidian`. Make sure that directory is on your PATH.
 
 Run `obsidian help` for the full command list. `obsidian create`, `obsidian rename`, `obsidian move`, and `obsidian delete` cover the file operations, and `obsidian backlinks` shows what points at a note before you change it.

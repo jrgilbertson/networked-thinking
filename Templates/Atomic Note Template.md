@@ -18,7 +18,7 @@ START
 
 {{Front: the question that tests the concept, e.g. "What is net revenue retention (NRR)?"}}
 
-Back: {{Definition (10-50 words): one clear sentence. Introduce any acronym on first use as "full term (ACRONYM)". Link shared concepts like [[...|percentage]] instead of redefining them.}}
+Back: {{Definition (10-50 words): one or two clear sentences, the first of which is the filename source. Introduce any acronym on first use as "full term (ACRONYM)". Link shared concepts like [[...|percentage]] instead of redefining them.}}
 
 {{Analogy: "<concept> is like <familiar referent>", then explain the shared structure in plain prose.}}
 
