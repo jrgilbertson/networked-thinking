@@ -33,6 +33,7 @@ This repository ships as a clean Obsidian vault, so it keeps no `docs/` tree. Ev
 - Reference notes preserve source context before ideas are synthesized into atomic notes.
 - Inbox content is raw capture. Move or transform it only when the task explicitly asks for curation.
 - People, Meetings, Projects, Reviews, Places and Things, and Vocabulary Notes are workflow folders. Follow the closest matching template when creating new files there.
+- `Bases/` holds the `.base` view definitions that templates and notes embed, such as `DailyNote.base` in the Daily Note Template. Change one only when the task is about Bases views; deleting it breaks every note that embeds it.
 
 ## Verification
 
