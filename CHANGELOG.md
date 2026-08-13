@@ -40,6 +40,9 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
   vault to the book, and linked the book site. The three-verb summary of the
   methodology is gone, since the vault itself demonstrates it better than a
   sentence can.
+- Dropped the README pointer to the book's Appendix D prompt. The book is
+  unpublished, so it sent readers somewhere they cannot go; the skills project
+  named in the same paragraph is usable today.
 
 ### Removed
 

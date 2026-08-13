@@ -30,9 +30,9 @@ Inbox/            Raw capture, sorted during weekly review
 Reviews/          Daily, weekly, and quarterly reflection notes
 ```
 
-People, Meetings, Projects, Vocabulary Notes, and Places and Things are optional workflow folders, added only when a real need shows up. `Attachments/` holds media and `Bases/` holds the saved view definitions that templates embed. [GETTING-STARTED.md](GETTING-STARTED.md) has the complete folder map, the full template inventory, and the wikilink and alias mechanics.
+People, Meetings, Projects, Vocabulary Notes, and Places and Things are optional workflow folders. `Attachments/` holds media and `Bases/` holds the saved view definitions that templates embed. [GETTING-STARTED.md](GETTING-STARTED.md) has the complete folder map, the full template inventory, and the wikilink and alias mechanics.
 
-For agentic assistants working directly in the vault, the companion [Networked Thinking Skills](https://github.com/jrgilbertson/networked-thinking-skills) project adds `atomic-note` and `atomic-note-audit` skills (`npx skills add`). The book's paste-into-any-chat-AI prompt lives in Appendix D.
+For agentic assistants working directly in the vault, the companion [Networked Thinking Skills](https://github.com/jrgilbertson/networked-thinking-skills) project adds `atomic-note` and `atomic-note-audit` skills (`npx skills add`).
 
 ## Status
 
