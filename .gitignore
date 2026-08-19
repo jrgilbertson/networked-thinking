@@ -16,6 +16,6 @@
 .compound-engineering/*.local.yaml
 
 # This repo ships as a clean Obsidian vault, so agent working folders stay out.
-# Learnings, ideation, and plans live in the skills and site repos instead.
+# Promote durable material into the repository and path that owns it.
 docs/
 .impeccable/
