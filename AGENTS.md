@@ -8,7 +8,7 @@ This repository is an Obsidian vault template for the Networked Thinking methodo
 
 Start with `README.md` and `GETTING-STARTED.md` when you need product context. Use the existing notes and files under `Templates/` as the source of truth for local note structure.
 
-This repository ships as a clean Obsidian vault, so it keeps no `docs/` tree. Everything tracked here is content a downloader opens in Obsidian. `.gitignore` already keeps a stray `docs/` tree out of commits, so leave one a tool writes rather than deleting untracked work. The same goes for working documents at the root: durable learnings, ideation studies, plans, and product or design briefs live in `networked-thinking-skills` or `networked-thinking-site`, which are not vaults.
+This repository ships as a clean Obsidian vault, so it keeps no `docs/` tree. Everything tracked here is content a downloader opens in Obsidian. `.gitignore` keeps a tool-created `docs/` tree out of commits, so leave that untracked work in place. Plans, ideation, raw research, and generated reports are temporary worktree material here and in sibling repositories. Promote only durable learnings or current product and design guidance into the repository that owns them.
 
 ## Editing Rules
 
