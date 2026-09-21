@@ -1,6 +1,6 @@
 # AGENTS.md
 
-This is the canonical project instruction file. Codex reads `AGENTS.md` natively; Claude Code reads these same instructions through the `CLAUDE.md` import shim.
+This is the canonical project instruction file. Codex and Claude Code read `AGENTS.md` natively.
 
 ## Project Context
 
@@ -20,7 +20,7 @@ This repository ships as a clean Obsidian vault, so it keeps no `docs/` tree. Ev
 - Do not edit vendored Obsidian plugin bundles under `.obsidian/plugins/` unless the task is explicitly about plugin files.
 - When adding media or non-markdown assets, place them under `Attachments/` unless the user gives a more specific location.
 - Write in ASCII. Non-ASCII belongs only where the content requires it, such as IPA in vocabulary notes or a name spelled with diacritics. Use a comma, a colon, a period, or a reworked sentence rather than an em dash.
-- Keep `AGENTS.md` as the single canonical source of project instructions. Do not duplicate these instructions in `CLAUDE.md`; it should remain only the import shim.
+- Keep `AGENTS.md` as the single canonical source of project instructions.
 
 ## Vault Conventions
 
